@@ -1,6 +1,11 @@
 # dotfiles
 Dotfiles of my i3, urxvt and vim configuration
 
+## ZSH
+### Dependencies
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [vi-mode](https://github.com/Nyquase/vi-mode)
+
 ## Font Rendering
 ### Dependencies
 fonts-croscore fonts-crosextra-caladea fonts-crosextra-carlito
