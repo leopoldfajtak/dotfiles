@@ -4,6 +4,7 @@ Dotfiles of my i3, urxvt and vim configuration
 ## ZSH
 ### Dependencies
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [Patched Fonts for Powerline](https://github.com/powerline/fonts)
 - [vi-mode](https://github.com/Nyquase/vi-mode)
 
 ## Font Rendering
