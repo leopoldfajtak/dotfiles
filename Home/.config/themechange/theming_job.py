@@ -14,7 +14,9 @@ L = LocationInfo(
     longitude=16.4)
 
 def set_theme(daylight):
-    subprocess.run('~/.config/themechange/settheme ' + ('bright' if daylight else 'dark'), shell=True)
+    subprocess.run(
+        '~/.config/themechange/settheme ' + ('bright' if daylight else 'dark'),
+        shell=True)
 
 def next_switch_in():
     s = sun(L.observer, date=date.today(), tzinfo=L.timezone)
