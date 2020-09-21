@@ -1,0 +1,11 @@
+case $1 in
+	bright|dark)
+	cp ~/.config/themechange/gtk-3.0_settings_$1 ~/.config/gtk-3.0/settings.ini
+	cp ~/.config/themechange/gtkrc-2.0_$1 ~/.gtkrc-2.0
+	cp ~/.config/themechange/Xresources_$1 ~/.Xresources
+	feh --bg-scale ~/.config/wallpaper_$1.png
+	xrdb ~/.Xresources
+	i3-msg restart
+	gsettings set org.gnome.desktop.interface gtk-theme Pop;;
+	esac
+
