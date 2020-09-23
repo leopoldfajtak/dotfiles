@@ -27,6 +27,7 @@
 *background:              S_base3
 *background_hl:		  S_base2
 *foreground_secondary:	  S_base1
+*foreground_secondary0:  S_base0
 *foreground:              S_base00
 *foreground_hl:		  S_base01
 *fadeColor:               S_base3

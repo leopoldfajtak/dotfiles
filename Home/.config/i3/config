@@ -26,11 +26,12 @@ set $base1   #93a1a1
 set $base2   #eee8d5
 set $base3   #fdf6e3
 
-set_from_resource $background		i3wm.background			#002b36
-set_from_resource $background_hl	i3wm.background_hl		#073642
-set_from_resource $foreground_secondary	i3wm.foreground_secondary	#586e75
-set_from_resource $foreground		i3wm.foreground			#839496
-set_from_resource $foreground_hl	i3wm.foreground_hl		#93a1a1
+set_from_resource $background			i3wm.background			#002b36
+set_from_resource $background_hl		i3wm.background_hl		#073642
+set_from_resource $foreground_secondary		i3wm.foreground_secondary	#586e75
+set_from_resource $foreground_secondary0	i3wm.foreground_secondary0	#657B83
+set_from_resource $foreground			i3wm.foreground			#839496
+set_from_resource $foreground_hl		i3wm.foreground_hl		#93a1a1
 
 set_from_resource $highlight		i3wm.highlight			#2aa198
 
@@ -126,8 +127,8 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
+set $ws1 "1"
+set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
@@ -161,8 +162,8 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-assign [class="URxvt"] $ws2
-assign [class="Firefox-esr"] $ws1
+assign [class="URxvt"] $ws1
+assign [class="Firefox-esr"] $ws2
 
 
 # reload the configuration file
@@ -229,27 +230,28 @@ mode "$mode_system" {
 bindsym $mod+Pause mode "$mode_system"
 bindsym $mod+F12 mode "$mode_system"
 
-# window colors
+# window colors taken from base16 colorscheme git
 #			border		background	text			indicator
-client.focused		$background	$background_hl	$highlight		$highlight
-client.unfocused	$background_hl	$background	$foreground_secondary	$background
-client.focused_inactive	$background_hl	$background	$foreground_secondary	$highlight
-client.urgent		$red		$background	$foreground_hl		$red
-client.placeholder	$background	$background_hl	$foreground_secondary	$background
+client.focused		$foreground_hl	$highlight	$background		$highlight
+client.focused_inactive	$background_hl	$background_hl	$foreground_hl		$foreground_secondary0
+client.unfocused	$background_hl	$background	$foreground_hl		$background_hl
+client.urgent		$red		$red		$background		$red
+client.placeholder	$background	$background	$foreground_hl		$foreground_hl
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
 	status_command i3blocks -c ~/.config/i3blocks.conf
 	colors {
-		background $background_hl
-		separator  $foreground_secondary
+		background $background
+		separator  $background_hl
 		statusline $foreground
-		#			border			background	text
-		focused_workspace	$foreground		$background	$highlight
-		active_workspace	$foreground		$background	$foreground
-		inactive_workspace	$foreground_secondary	$background_hl	$foreground_secondary
-		urgent_workspace	$red			$background	$foreground_hl
+		#			border			background		text
+		focused_workspace	$foreground_hl		$highlight		$background
+		active_workspace	$foreground_hl		$foreground_secondary0	$background
+		inactive_workspace	$foreground_secondary0	$background_hl		$foreground_hl
+		urgent_workspace	$red			$red			$background
+		binding_mode		$background		$yellow			$background
 	}
 }
 
