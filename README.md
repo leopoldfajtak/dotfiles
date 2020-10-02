@@ -9,6 +9,7 @@ Other dependencies are:
 - i3blocks
 - [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme) repository
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
+- For qt5 apps, qt5-style-plugins will style them according to the gtk2 theme
 - [Roboto Mono Light for Powerline](https://github.com/powerline/fonts) font (see section about zsh)
 - `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
 - `rxvt-unicode` (is set as standard terminal)
@@ -25,6 +26,7 @@ need to be adapted. Corresponding themes for each accent colour can be found in 
 ### Files
 - [.xinitrc](Home/.xinitrc)
 - [.Xresources](Home/.Xresources)
+- [i3blocks.conf](Home/.config/i3blocks.conf)
 - [config](Home/.config/i3/config)
 - [Everything from themechange](Home/.config/themechange/)
 ### Known issues
