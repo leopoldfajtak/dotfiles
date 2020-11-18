@@ -51,3 +51,14 @@ Thanks to wilbert-vb on
 
 ## Firefox
 [Zenfox](https://addons.mozilla.org/en-US/firefox/addon/zen-fox/)
+
+### Japanese Inupt
+The
+`ibus-mozc` package should do everything we need
+
+### Further Notes
+#### Libreoffice
+install ibreoffice-gtk for ibus to work
+
+#### Anki
+Do not install with package manager, but download from website
