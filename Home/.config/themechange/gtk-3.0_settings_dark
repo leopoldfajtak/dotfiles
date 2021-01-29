@@ -1,7 +1,7 @@
 [Settings]
 gtk-theme-name=NumixSolarizedDarkCyan
 gtk-icon-theme-name=Solarized-Deluxe-Iconpack
-gtk-font-name=Roboto Mono Light for Powerline Light 8
+gtk-font-name=Overpass Light 9
 gtk-cursor-theme-name=Cyan-Cursor
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH

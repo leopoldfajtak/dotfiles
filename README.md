@@ -10,10 +10,11 @@ Other dependencies are:
 - [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme) repository
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
 - For qt5 apps, qt5-style-plugins will style them according to the gtk2 theme
-- [Roboto Mono Light for Powerline](https://github.com/powerline/fonts) font (see section about zsh)
+- [mononoki Nerd Font](www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
+- [Overpass Nerd Font](www.nerdfonts.com/font-downloads) (As system font)
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
 - `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
-- `rxvt-unicode` (is set as standard terminal)
-- `clipit` (is set to start automatically)
+- `kitty` (is set as standard terminal)
 - firefox (is set to start automatically)
 ### Configuration
 - For the theme switch to happen in the correct time, a `LocationInfo` has to be entered into the script [theming_job.py](Home/.config/themechange/theming_job.py) For this.
@@ -32,10 +33,12 @@ need to be adapted. Corresponding themes for each accent colour can be found in 
 ### Known issues
 When the themechange occurs most applications need to be relaunched in order for it to take effect. The Window borders, dmenu and i3bar change immediately, though.
 
+Theme change does not currently affect kitty
 ## ZSH
 ### Dependencies
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- [Patched Fonts for Powerline](https://github.com/powerline/fonts)
+- [mononoki Nerd Font](www.nerdfonts.com/font-downloads)
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
 - [vi-mode](https://github.com/Nyquase/vi-mode)
 ### Files
 - [zshrc](Home/.zshrc)

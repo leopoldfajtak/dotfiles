@@ -73,7 +73,7 @@
 Xft.dpi:                    96
 Xft.antialias:              true
 Xft.autohint:               false
-Xft.rgba:                   rgb
+Xft.rgba:                   none
 Xft.hinting:                false
 Xft.hintstyle:              hintnone
 Xft.lcdfilter:              lcddefault
@@ -98,8 +98,8 @@ URxvt.lineSpace:            0
 ! Fonts
 URxvt.allow_bold:           false
 /* URxvt.font:                 -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
-URxvt*font: xft:Ubuntu Mono derivative Powerline:pixelsize=14
-URxvt*boldFont: xft:Ubuntu Mono derivative Powerline Bold:pixelsize=14
+URxvt*font: xft:mononoki\ NF:pixelsize=14
+URxvt*boldFont: xft:mononoki\ Nerd\ Font\ Mono:pixelsize=14
 
 ! Letter Spacing
 ! URxvt*letterSpace: -1
@@ -120,4 +120,8 @@ URxvt.cursorUnderline:      false
 
 ! Pointer
 URxvt.pointerBlank:         true
+
+! Input
+URxvt.inputMethod:          ibus
+URxvt.preeditType:          OverTheSpot
 
