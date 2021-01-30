@@ -39,7 +39,11 @@ syntax on
 
 set t_Co=256
 syntax enable
-"set background=dark
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
 
 "let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
@@ -50,7 +54,7 @@ let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_python_flake8_args = '--ignore=E501,E221,E241,E251,E265,E999'
 
 "if commented out colorscheme will be taken from shell
-"colorscheme Tomorrow-Night-Bright
+colorscheme solarized
 highlight LineNr ctermfg=102
 highlight link jsonNumber javaScriptNumber
 highlight link jsonBoolean javaScriptFunction
