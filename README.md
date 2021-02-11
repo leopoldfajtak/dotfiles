@@ -10,8 +10,9 @@ Other dependencies are:
 - [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme) repository
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
 - For qt5 apps, qt5-style-plugins will style them according to the gtk2 theme
-- [mononoki Nerd Font](www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
-- [Overpass Nerd Font](www.nerdfonts.com/font-downloads) (As system font)
+- [mononoki Nerd Font](http://www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
+- [Overpass Nerd Font](http://www.nerdfonts.com/font-downloads) (As system font)
+- Because I always need it: [Fonts in Debian](https://wiki.debian.org/fonts)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
 - `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
 - `kitty` (is set as standard terminal)
