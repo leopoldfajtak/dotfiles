@@ -1,0 +1,8 @@
+[calendars]
+
+    [[nextcloud]]
+        path = ~/.calendars/*
+        type = discover
+
+[locale]
+    firstweekday = 6

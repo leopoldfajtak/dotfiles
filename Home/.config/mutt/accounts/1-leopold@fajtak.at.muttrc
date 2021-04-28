@@ -1,0 +1,48 @@
+# vim: filetype=neomuttrc
+# muttrc file for account leopold@fajtak.at
+set realname = "Leopold Fajtak"
+set from = "leopold@fajtak.at"
+set sendmail = "msmtp -a leopold@fajtak.at"
+alias me leopold <leopold@fajtak.at>
+set folder = "/home/leopoldfajtak/.local/share/mail/leopold@fajtak.at"
+set header_cache = /home/leopoldfajtak/.cache/mutt-wizard/leopold@fajtak.at/headers
+set message_cachedir = /home/leopoldfajtak/.cache/mutt-wizard/leopold@fajtak.at/bodies
+set mbox_type = Maildir
+
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index,pager M noop
+bind index,pager C noop
+bind index gg first-entry
+unmailboxes *
+unalternates *
+unset signature
+macro index o "<shell-escape>mw -y leopold@fajtak.at<enter>" "run mbsync to sync leopold@fajtak.at"
+
+mailboxes "=Drafts" "=Trash" "=Archives/2021" "=Spam" "=Sent" "=INBOX"
+set postponed = "+Drafts"
+macro index,pager gd "<change-folder>=Drafts<enter>" "go to drafts"
+macro index,pager Md ";<save-message>=Drafts<enter>" "move mail to drafts"
+macro index,pager Cd ";<copy-message>=Drafts<enter>" "copy mail to drafts"
+macro index,pager gt "<change-folder>=Trash<enter>" "go to trash"
+macro index,pager Mt ";<save-message>=Trash<enter>" "move mail to trash"
+macro index,pager Ct ";<copy-message>=Trash<enter>" "copy mail to trash"
+set trash = "+Trash"
+macro index,pager ga "<change-folder>=Archives/2021<enter>" "go to archive"
+macro index,pager Ma ";<save-message>=Archives/2021<enter>" "move mail to archive"
+macro index,pager Ca ";<copy-message>=Archives/2021<enter>" "copy mail to archive"
+macro index,pager gS "<change-folder>=Spam<enter>" "go to spam"
+macro index,pager MS ";<save-message>=Spam<enter>" "move mail to spam"
+macro index,pager CS ";<copy-message>=Spam<enter>" "copy mail to spam"
+macro index,pager gt "<change-folder>=Trash<enter>" "go to trash"
+macro index,pager Mt ";<save-message>=Trash<enter>" "move mail to trash"
+macro index,pager Ct ";<copy-message>=Trash<enter>" "copy mail to trash"
+set trash = "+Trash"
+set record = "+Sent"
+macro index,pager gs "<change-folder>=Sent<enter>" "go to sent"
+macro index,pager Ms ";<save-message>=Sent<enter>" "move mail to sent"
+macro index,pager Cs ";<copy-message>=Sent<enter>" "copy mail to sent"
+macro index,pager gi "<change-folder>=INBOX<enter>" "go to inbox"
+
+
