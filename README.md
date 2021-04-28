@@ -21,7 +21,7 @@ Other dependencies are:
 - [Vundle](http://github.com/VundleVim/Vundle.vim) for vimrc
 - `pass` to manage passwords for mail and calendar synchronisation
 - `neomutt` for mail
-- `vdirsyncer`, `khal`, `todoman` for task, calendar and contact management
+- `vdirsyncer`, `khal`, `todoman`, `click-repl`  for task, calendar and contact management
 ### Configuration
 - For the theme switch to happen in the correct time, a `LocationInfo` has to be entered into the script [theming_job.py](Home/.config/themechange/theming_job.py) For this.
 - The accent color (here cyan is set) can be changed in `.Xresources`. The i3config file, as well as urxvt, take their color definitions from there. For the gtk theme, 
