@@ -2,12 +2,14 @@
 [[ -f ~/.Xresources ]] && xrdb ~/.Xresources
 
 # inupt method
-ibus-daemon -d -r
+# ibus-daemon -d -r
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
+export GLFW_IM_MODULE=ibus
 
-export PATH=$PATH:/snap/bin/:~/.local/bin/:/usr/sbin/
+export PATH=$PATH:/snap/bin/:~/.local/bin/:/usr/sbin/:$HOME/Jts/:$HOME/portfolio/
+
 
 # set editor
 export VISUAL=vim
