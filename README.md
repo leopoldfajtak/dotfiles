@@ -16,6 +16,7 @@ Other dependencies are:
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
 - `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
 - `kitty` (is set as standard terminal)
+- `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
 - firefox (is set to start automatically)
 - [Pathogen](http://github.com/tpope/vim-pathogen) for vimrc
 - [Vundle](http://github.com/VundleVim/Vundle.vim) for vimrc
