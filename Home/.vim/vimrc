@@ -69,6 +69,7 @@ set fileencoding=utf-8
 
 set foldmethod=syntax
 
+set laststatus=2
 set ruler
 set number
 set tabstop=8
