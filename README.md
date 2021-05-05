@@ -1,7 +1,11 @@
-# dotfiles
-Dotfiles of my i3, urxvt, zsh and vim configuration
+dotfiles
+========
 
-## i3wm (and urxvt)
+Dotfiles of my i3, tmux, zsh and vim configuration
+
+i3wm (and st)
+----------------
+
 ### Dependencies
 The dark and bright wallpapers should be located in [.config](Home/.config/) as `wallpaper_bright.png` and `wallpaper_dark.png` respectively.
 Other dependencies are:
@@ -13,15 +17,12 @@ Other dependencies are:
 - [mononoki Nerd Font](http://www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
 - [Overpass Nerd Font](http://www.nerdfonts.com/font-downloads) (As system font)
 - Because I always need it: [Fonts in Debian](https://wiki.debian.org/fonts)
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
 - `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
-- `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
+- `st`. [my st build](https://github.com/leopoldfajtak/st)
 - firefox (is set to start automatically)
 - [Vundle](http://github.com/VundleVim/Vundle.vim) for vimrc
-- Some gvim package for accessing the system clipboard (vim-gtk on Debian)
-- `pass` to manage passwords for mail and calendar synchronisation
-- `neomutt` for mail
-- `vdirsyncer`, `khal`, `todoman`, `click-repl`  for task, calendar and contact management
+- Some gvim package for accessing the system clipboard (`vim-gtk` on Debian)
+
 ### Configuration
 - For the theme switch to happen in the correct time, a `LocationInfo` has to be entered into the script [theming_job.py](Home/.config/themechange/theming_job.py) For this.
 - The accent color (here cyan is set) can be changed in `.Xresources`. The i3config file, as well as urxvt, take their color definitions from there. For the gtk theme, 
@@ -39,17 +40,19 @@ need to be adapted. Corresponding themes for each accent colour can be found in 
 ### Known issues
 When the themechange occurs most applications need to be relaunched in order for it to take effect. The Window borders, dmenu and i3bar change immediately, though.
 
-Theme change does not currently affect kitty
-## ZSH
+ZSH and tmux
+------------
 ### Dependencies
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- [mononoki Nerd Font](www.nerdfonts.com/font-downloads)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
+- [mononoki Nerd Font](www.nerdfonts.com/font-downloads)
 - [vi-mode](https://github.com/Nyquase/vi-mode)
+- `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
 ### Files
 - [zshrc](Home/.zshrc)
 
-## Font Rendering
+Font Rendering
+--------------
 ### Dependencies
 fonts-croscore fonts-crosextra-caladea fonts-crosextra-carlito
 ### Files
@@ -59,18 +62,36 @@ Thanks to wilbert-vb on
 [Reddit](https://www.reddit.com/r/debian/comments/5sookn/how_to_get_the_perfect_rendering_font_in_debian/)
 
 ## Firefox
-[Zenfox](https://addons.mozilla.org/en-US/firefox/addon/zen-fox/)
+- [Zenfox](https://addons.mozilla.org/en-US/firefox/addon/zen-fox/)
+- [Surfingkeys](https://github.com/brookhong/Surfingkeys)
+- [Ublock-Origin](https://github.com/gorhill/uBlock#ublock-origin)
+- [Privacy-Badger](https://privacybadger.org)
+- [https everywhere](https://www.eff.org/https-everywhere)
+- KeepassXC-browser
+- [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/)
 
-### Japanese Inupt
-The
-`ibus-mozc` package should do everything we need
+Japanese Input
+--------------
+### Packages
+`ibus-gtk3`, `ibus-clutter`, `ibus-mozc`,
+
+### Files
+- [.xinitrc](Home/.xinitrc)
 
 ## Ranger
 - also install (ueberzug)[htps://github.com/seebye/ueberzug]
 
 ### Further Notes
 #### Libreoffice
-install ibreoffice-gtk for ibus to work
+install `ibreoffice-gtk` for ibus to work
 
 #### Anki
 Do not install with package manager, but download from website
+
+Mail, Todo, Contacts, Calendar
+------------------------------
+### Dependencies
+- `pass` to manage passwords for mail and calendar synchronisation
+- `neomutt` for mail
+- `vdirsyncer`, `khal`, `todoman`, `click-repl`  for task, calendar and contact management
+
