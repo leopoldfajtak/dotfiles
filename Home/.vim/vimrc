@@ -19,6 +19,11 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'preservim/vimux'
+"Plugin 'nvie/vim-flake8'
 
 " ...
 
@@ -49,9 +54,14 @@ endif
 "let g:syntastic_auto_loc_list = 1
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 0
+"
+" Run command in  Vimux
+" More such bindings can be found at https://www.bugsnag.com/blog/tmux-and-vim
+let mapleader = ","
+map <leader>vp :VimuxPromptCommand<cr>
 
 let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_args = '--ignore=E501,E221,E241,E251,E265,E999'
+let g:syntastic_python_flake8_args = '--ignore=E221,E241,E251'
 
 "if commented out colorscheme will be taken from shell
 colorscheme solarized
