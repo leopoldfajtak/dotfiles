@@ -14,7 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
-"Plugin 'chriskempson/base16-vim'
+Plugin 'chriskempson/base16-vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/indentpython.vim'
@@ -23,6 +23,7 @@ Plugin 'ycm-core/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'preservim/vimux'
+Plugin 'altercation/vim-colors-solarized'
 "Plugin 'nvie/vim-flake8'
 
 " ...
@@ -30,13 +31,6 @@ Plugin 'preservim/vimux'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-"pathogen load
-filetype off
-
-execute pathogen#infect()
-"call pathogen#infect()
-"call pathogen#helptags()
 
 
 syntax on
