@@ -107,11 +107,18 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
+# if tmux is executable, X is running, and not inside a tmux session, then try to attach.
+# if attachment fails, start a new session
+if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ]; then
+  [ -z "${TMUX}" ] && (tmux attach || tmux) >/dev/null 2>&1
+fi
+alias davmsync="vdirsyncer sync && mailsync"
+alias mutt="neomutt && mailsync"
+alias itodoman="todoman repl"
+
 prompt_context(){}
 
-export GTK_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-export QT_IM_MODULE=ibus
+export GNUPGHOME="$HOME/.gnupg"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
