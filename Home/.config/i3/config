@@ -266,7 +266,7 @@ hide_edge_borders smart
 default_border normal 1
 default_floating_border normal 1
 for_window [class="Firefox-esr|Thunar|Brave-browser|zoom"] border pixel 2
-#for_window [class="kitty"] border normal 0
+for_window [class="st"] border pixel 0
 
 # Display Configuration
 exec_always xrandr --output VGA-1 --off --output LVDS-1 --primary --mode 1280x800 --pos 2560x888 --rotate normal --output HDMI-2 --off --output HDMI-1 --off --output DP-3 --off --output DP-2 --mode 2560x1440 --pos 0x0 --rotate normal --output DP-1 --off
