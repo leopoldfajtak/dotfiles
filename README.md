@@ -15,7 +15,6 @@ Other dependencies are:
 - Because I always need it: [Fonts in Debian](https://wiki.debian.org/fonts)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
 - `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
-- `kitty` (is set as standard terminal)
 - `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
 - firefox (is set to start automatically)
 - [Pathogen](http://github.com/tpope/vim-pathogen) for vimrc
@@ -65,6 +64,9 @@ Thanks to wilbert-vb on
 ### Japanese Inupt
 The
 `ibus-mozc` package should do everything we need
+
+## Ranger
+- also install (ueberzug)[htps://github.com/seebye/ueberzug]
 
 ### Further Notes
 #### Libreoffice
