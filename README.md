@@ -95,3 +95,7 @@ Mail, Todo, Contacts, Calendar
 - `neomutt` for mail
 - `vdirsyncer`, `khal`, `todoman`, `click-repl`  for task, calendar and contact management
 
+Other programs
+--------------
+- `zathura` for pdfs
+
