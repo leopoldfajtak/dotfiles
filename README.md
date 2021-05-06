@@ -14,6 +14,7 @@ Other dependencies are:
 - [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme) repository
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
 - For qt5 apps, qt5-style-plugins will style them according to the gtk2 theme
+- Symbola Fonts for st, until the coloured emoji bug is fixed  (`fonts-symbola` on Debian)
 - [mononoki Nerd Font](http://www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
 - [Overpass Nerd Font](http://www.nerdfonts.com/font-downloads) (As system font)
 - Because I always need it: [Fonts in Debian](https://wiki.debian.org/fonts)
