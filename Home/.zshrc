@@ -112,14 +112,19 @@ source $ZSH/oh-my-zsh.sh
 # if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ]; then
 #  [ -z "${TMUX}" ] && (tmux attach || tmux) >/dev/null 2>&1
 # fi
-if [ -n "${DISPLAY}" ] && [ "$TMUX" = "" ]; then tmux new-session; fi
+
+if [ -n "${DISPLAY}" ] && [ -z "$TMUX" ]; then
+     FIRST_UNATTACHED_SESSION=$(tmux ls -F '#{session_name}|#{?session_attached,attached,not attached}' 2>/dev/null | grep 'not attached$' | tail -n 1 | cut -d '|' -f1)
+     (tmux attach -t $FIRST_UNATTACHED_SESSION || tmux)2> /dev/null;
+fi
 alias davmsync="vdirsyncer sync && mailsync"
 alias mutt="neomutt && mailsync"
-alias itodoman="todoman repl"
+alias itodoman="todoman list --sort due && todoman repl"
+
+export GNUPGHOME="$HOME/.gnupg"
 
 prompt_context(){}
 
-export GNUPGHOME="$HOME/.gnupg"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
