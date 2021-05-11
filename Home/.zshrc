@@ -109,9 +109,10 @@ source $ZSH/oh-my-zsh.sh
 
 # if tmux is executable, X is running, and not inside a tmux session, then try to attach.
 # if attachment fails, start a new session
-if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ]; then
-  [ -z "${TMUX}" ] && (tmux attach || tmux) >/dev/null 2>&1
-fi
+# if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ]; then
+#  [ -z "${TMUX}" ] && (tmux attach || tmux) >/dev/null 2>&1
+# fi
+if [ -n "${DISPLAY}" ] && [ "$TMUX" = "" ]; then tmux new-session; fi
 alias davmsync="vdirsyncer sync && mailsync"
 alias mutt="neomutt && mailsync"
 alias itodoman="todoman repl"
