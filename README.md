@@ -17,6 +17,8 @@ Other dependencies are:
 - Symbola Fonts for st, until the coloured emoji bug is fixed  (`fonts-symbola` on Debian)
 - [mononoki Nerd Font](http://www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
 - [Overpass Nerd Font](http://www.nerdfonts.com/font-downloads) (As system font)
+- [Incolsolata for Poserline Font]
+- Takao Gothic fonts
 - Because I always need it: [Fonts in Debian](https://wiki.debian.org/fonts)
 - `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
 - `st`. [my st build](https://github.com/leopoldfajtak/st)
