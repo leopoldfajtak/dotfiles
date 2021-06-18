@@ -9,7 +9,7 @@ export QT_IM_MODULE=ibus
 export GLFW_IM_MODULE=ibus
 export XIM_PROGRAM=/usr/bin/ibus
 
-export PATH=$PATH:/snap/bin/:~/.local/bin/:/usr/sbin/:$HOME/Jts/:$HOME/portfolio/
+export PATH=$PATH:~/.local/bin/:/usr/sbin/:$HOME/Jts/:$HOME/portfolio/
 
 
 # set editor
