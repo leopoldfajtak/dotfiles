@@ -48,6 +48,7 @@ ZSH and tmux
 - [mononoki Nerd Font](www.nerdfonts.com/font-downloads)
 - [vi-mode](https://github.com/Nyquase/vi-mode)
 - `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
+- `xclip`
 ### Files
 - [zshrc](Home/.zshrc)
 
@@ -92,7 +93,7 @@ Mail, Todo, Contacts, Calendar
 ------------------------------
 ### Dependencies
 - `pass` to manage passwords for mail and calendar synchronisation
-- `neomutt` for mail
+- `neomutt` for mail (with the dependencies according to lukesmithxyz's `muttwiz`)
 - `vdirsyncer`, `khal`, `todoman`, `click-repl`  for task, calendar and contact management
 
 Other programs
