@@ -97,5 +97,8 @@ nmap <C-l> <C-w>l
 " nnoremap <space> za
 
 autocmd StdinReadPre * let s:std_in=1
+" make .brik and .mbrik documents open with latex coloring
+autocmd BufNewFile,BufRead *.brik set syntax=tex
+autocmd BufNewFile,BufRead *.mbrik set syntax=tex
 
 
