@@ -45,6 +45,11 @@ When the themechange occurs most applications need to be relaunched in order for
 
 ZSH and tmux
 ------------
+### First things first
+Make zsh your default shell by running 
+```shell
+chsh -s $(which zsh)
+```
 ### Dependencies
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
