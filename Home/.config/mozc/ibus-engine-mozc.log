@@ -1,0 +1,564 @@
+Log file created at: 2021-10-04 11:37:43 4751 139872215809984
+2021-10-04 13:43:42 4751 139872215809984 unix/ibus/selection_monitor.cc(265) LOG(INFO) XFixes ver: 5.5, first_event: 87
+2021-10-04 13:43:42 4751 139872215809984 ipc/ipc_path_manager.cc(553) LOG(INFO) [VLOG_IS_ON(1)] ClientIPCKey: be0f59f6c86d73ff768e99a2999e9df6
+2021-10-04 13:43:42 4751 139872215809984 ipc/ipc_path_manager.cc(554) LOG(INFO) [VLOG_IS_ON(1)] ProtocolVersion: 3
+2021-10-04 13:43:42 4751 139872215809984 ipc/ipc_path_manager.cc(426) LOG(INFO) [VLOG_IS_ON(1)] server path: /usr/lib/mozc/mozc_server /usr/lib/mozc/mozc_server
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 4 bytes sent
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 2 bytes received
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 11 bytes received
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 324 bytes received
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 324 bytes received
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes received
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:42 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:42 4751 139872215809984 config/config_handler.cc(212) LOG(INFO) [VLOG_IS_ON(1)] Reloading config file: user://config1.db
+2021-10-04 13:43:42 4751 139872215809984 composer/key_parser.cc(63) LOG(INFO) [VLOG_IS_ON(1)] Init KeyParser Data
+2021-10-04 13:43:50 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:43:50 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:43:50 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:50 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:51 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 169 bytes received
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:51 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 111 bytes received
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:51 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:52 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:52 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:52 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 123 bytes received
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:52 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 354 bytes received
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:52 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 360 bytes received
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:52 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 332 bytes received
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:52 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:53 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 716 bytes received
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:53 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 55 bytes received
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:53 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 169 bytes received
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 111 bytes received
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 123 bytes received
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 354 bytes received
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 360 bytes received
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 332 bytes received
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 716 bytes received
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 1050 bytes received
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:43:58 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:43:58 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:43:58 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 52 bytes received
+2021-10-04 13:43:58 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:43:58 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:44:04 4751 139872215809984 unix/ibus/key_translator.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Unknown keyval: 65515
+2021-10-04 13:44:04 4751 139872215809984 unix/ibus/key_event_handler.cc(66) LOG(ERROR) Translate failed
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:44:05 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 5927 bytes received
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 5927 bytes received
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:35 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:36 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:36 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes sent
+2021-10-04 13:50:36 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:50:36 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:36 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:51 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:50:51 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 11 bytes received
+2021-10-04 13:50:51 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:51 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:53 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:50:53 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:50:53 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:53 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:54 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:54 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:54 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 169 bytes received
+2021-10-04 13:50:54 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:54 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 111 bytes received
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 123 bytes received
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 354 bytes received
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 360 bytes received
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 332 bytes received
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 713 bytes received
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 52 bytes received
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 143 bytes received
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:50:58 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:50:58 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes sent
+2021-10-04 13:50:58 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:50:58 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:50:58 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:45 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:51:45 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:51:45 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:45 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:48 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 169 bytes received
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:48 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 155 bytes received
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:48 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:49 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 161 bytes received
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:49 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 167 bytes received
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:49 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 173 bytes received
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:49 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 340 bytes received
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:49 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 185 bytes received
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:49 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 328 bytes received
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:49 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:50 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 613 bytes received
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:50 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 55 bytes received
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:50 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:54 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:51:54 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:51:54 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:54 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 169 bytes received
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 111 bytes received
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:55 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:55 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:56 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:56 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:56 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:51:56 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:56 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 123 bytes received
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 364 bytes received
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 370 bytes received
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 225 bytes received
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 713 bytes received
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:57 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 52 bytes received
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:57 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:51:58 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:51:58 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes sent
+2021-10-04 13:51:58 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:51:58 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:51:58 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:05 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:53:05 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:53:05 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:05 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:07 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 19 bytes sent
+2021-10-04 13:53:07 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes received
+2021-10-04 13:53:07 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:07 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:08 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:08 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:08 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 169 bytes received
+2021-10-04 13:53:08 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:08 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:09 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 111 bytes received
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:09 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:09 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 177 bytes received
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:09 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 183 bytes received
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:09 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 364 bytes received
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:09 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:10 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 370 bytes received
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:10 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 225 bytes received
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:10 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 713 bytes received
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:10 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 52 bytes received
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:10 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:13 4751 139872215809984 unix/ibus/key_translator.cc(342) LOG(INFO) [VLOG_IS_ON(1)] Unknown keyval: 65515
+2021-10-04 13:53:13 4751 139872215809984 unix/ibus/key_event_handler.cc(66) LOG(ERROR) Translate failed
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:13 4751 139872215809984 unix/ibus/mozc_engine.cc(561) LOG(INFO) [VLOG_IS_ON(1)] Syncing data
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 11 bytes received
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:13 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 5927 bytes received
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 13 bytes sent
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 5927 bytes received
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 17 bytes sent
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 25 bytes received
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:15 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 169 bytes received
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:15 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 111 bytes received
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:15 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:16 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 117 bytes received
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:16 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 177 bytes received
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:16 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 183 bytes received
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:16 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 364 bytes received
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:16 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:17 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 370 bytes received
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:17 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 225 bytes received
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:17 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 713 bytes received
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:17 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 52 bytes received
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:17 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:18 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:18 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:18 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:18 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:18 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(171) LOG(INFO) [VLOG_IS_ON(1)] 23 bytes sent
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(202) LOG(INFO) [VLOG_IS_ON(1)] 31 bytes received
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(339) LOG(INFO) [VLOG_IS_ON(1)] Call succeeded
+2021-10-04 13:53:19 4751 139872215809984 ipc/unix_ipc.cc(313) LOG(INFO) [VLOG_IS_ON(1)] connection closed (IPCClient destructed)
+2021-10-04 13:53:19 4751 139872215809984 unix/ibus/mozc_engine.cc(173) LOG(INFO) [VLOG_IS_ON(1)] Give up CONVERT_REVERSE due to client_capabilities: 8

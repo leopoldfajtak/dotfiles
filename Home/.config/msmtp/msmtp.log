@@ -1,0 +1,3 @@
+Oct 01 17:05:22 host=mail.student.tuwien.ac.at tls=on auth=on user=e1525033 from=leopold.fajtak@tuwien.ac.at recipients=introsec@list.tuwien.ac.at errormsg='cannot connect to mail.student.tuwien.ac.at, port 465: Connection timed out' exitcode=EX_TEMPFAIL
+Oct 01 17:09:38 host=mail.student.tuwien.ac.at tls=on auth=on user=e1525033 from=leopold.fajtak@tuwien.ac.at recipients=introsec@list.tuwien.ac.at errormsg='cannot connect to mail.student.tuwien.ac.at, port 465: Connection timed out' exitcode=EX_TEMPFAIL
+Oct 01 17:15:24 host=mail.student.tuwien.ac.at tls=on auth=on user=e1525033 from=leopold.fajtak@tuwien.ac.at recipients=introsec@list.tuwien.ac.at mailsize=540 smtpstatus=250 smtpmsg='250 2.0.0 191FFMx4020165 Message accepted for delivery' exitcode=EX_OK

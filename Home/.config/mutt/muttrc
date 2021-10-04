@@ -1,5 +1,5 @@
 # vim: filetype=neomuttrc
 source /usr/local/share/mutt-wizard/mutt-wizard.muttrc
-source /home/leopoldfajtak/.config/mutt/accounts/1-leopold@fajtak.at.muttrc
-macro index,pager i1 '<sync-mailbox><enter-command>source /home/leopoldfajtak/.config/mutt/accounts/1-leopold@fajtak.at.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to leopold@fajtak.at"
-macro index,pager i2 '<sync-mailbox><enter-command>source /home/leopoldfajtak/.config/mutt/accounts/2-leopold.fajtak@tuwien.ac.at.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to leopold.fajtak@tuwien.ac.at"
+source /home/leopoldfajtak/.config/mutt/accounts/leopold@fajtak.at.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/leopoldfajtak/.config/mutt/accounts/leopold@fajtak.at.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to leopold@fajtak.at"
+macro index,pager i2 '<sync-mailbox><enter-command>source /home/leopoldfajtak/.config/mutt/accounts/leopold.fajtak@tuwien.ac.at.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to leopold.fajtak@tuwien.ac.at"

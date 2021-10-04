@@ -1,0 +1,24 @@
+account leopold@fajtak.at
+host server26.webgo24.de
+port 465
+from leopold@fajtak.at
+user web195p1
+passwordeval "pass leopold@fajtak.at"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/leopoldfajtak/.config/msmtp/msmtp.log
+tls_starttls off
+
+account leopold.fajtak@tuwien.ac.at
+host mail.student.tuwien.ac.at
+port 587
+from leopold.fajtak@tuwien.ac.at
+user e1525033
+passwordeval "pass leopold.fajtak@tuwien.ac.at"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/leopoldfajtak/.config/msmtp/msmtp.log
+# tls_starttls
+

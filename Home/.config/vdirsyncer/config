@@ -7,7 +7,7 @@
 
 [general]
 # A folder where vdirsyncer can store some metadata about each pair.
-status_path = "~/.vdirsyncer/status/"
+status_path = "~/.local/share/vdirsyncer/status/"
 
 [pair contacts]
 a = "contacts_local"
@@ -16,7 +16,7 @@ collections = ["from a", "from b"]
 
 [storage contacts_local]
 type = "filesystem"
-path = "~/.contacts"
+path = "~/.local/share/contacts"
 fileext = ".vcf"
 
 [storage contacts_nextcloud]
@@ -39,7 +39,7 @@ metadata = ["displayname", "color"]
 
 [storage calendar_local]
 type = "filesystem"
-path = "~/.calendars/"
+path = "~/.local/share/calendars/"
 fileext = ".ics"
 
 [storage calendar_remote]
