@@ -10,7 +10,7 @@ i3wm (and st)
 The dark and bright wallpapers should be located in [.config](Home/.config/) as `wallpaper_bright.png` and `wallpaper_dark.png` respectively.
 Other dependencies are:
 - python3-pip and the astral package
-- i3blocks
+- i3blocks, as well as some [default scripts](https://github.com/vivien/i3blocks-contrib) to be deployed in ~/.bin
 - [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme) repository
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
 - For qt5 apps, qt5-style-plugins will style them according to the gtk2 theme
