@@ -51,12 +51,10 @@ Make zsh your default shell by running
 chsh -s $(which zsh)
 ```
 ### Dependencies
-- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
 - [mononoki Nerd Font](www.nerdfonts.com/font-downloads)
-- [vi-mode](https://github.com/Nyquase/vi-mode)
 - `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
 - `xclip`
+- [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting)
 ### Files
 - [zshrc](Home/.zshrc)
 
