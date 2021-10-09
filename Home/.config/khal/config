@@ -1,7 +1,7 @@
 [calendars]
 
     [[nextcloud]]
-        path = ~/.calendars/*
+        path = $XDG_DATA_HOME/calendars/*
         type = discover
 
 [locale]
