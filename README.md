@@ -17,7 +17,7 @@ Other dependencies are:
 - Symbola Fonts for st, until the coloured emoji bug is fixed  (`fonts-symbola` on Debian)
 - [mononoki Nerd Font](http://www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
 - [Overpass Nerd Font](http://www.nerdfonts.com/font-downloads) (As system font)
-- [Incolsolata for Powerline Font]
+- [Inconsolata Nerd Font]
 - `unclutter` for removing the cursor when not used
 - Takao Gothic fonts
 - Because I always need it: [Fonts in Debian](https://wiki.debian.org/fonts)
@@ -53,6 +53,7 @@ chsh -s $(which zsh)
 ```
 ### Dependencies
 - [mononoki Nerd Font](www.nerdfonts.com/font-downloads)
+- [Inconsolata Nerd Font]
 - `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
 - `xclip`
 - [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting)
