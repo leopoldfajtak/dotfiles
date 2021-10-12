@@ -264,9 +264,7 @@ for_window [class="firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal"
 
 # start compositor
 exec --no-startup-id picom --config ~/.config/picom.conf -b
-
-# Color theme for qt apps
-exec_always export QT_QPA_PLATFORMTHEME=qt5ct
+# get rid of mouse-cursor when not needed
 exec unclutter --fork --timeout 3
 
 # inupt method
@@ -274,7 +272,7 @@ exec_always ibus-daemon --xim -d -r
 exec export GLFW_IM_MODULE=ibus
 
 # Start other applications
-exec keepassxc ~/Nextcloud/Passwords.kdbx
+exec keepassxc ~/LocalSecrets.kdbx
 exec --no-startup-id firefox
 exec --no-startup-id (sleep 30; nextcloud)
 exec mbsync
