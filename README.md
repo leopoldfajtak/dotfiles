@@ -13,6 +13,7 @@ Other dependencies are:
 - i3blocks, as well as some [default scripts](https://github.com/vivien/i3blocks-contrib) to be deployed in ~/.bin
 - [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme) repository
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
+- [qt5-styleplugins](https://aur.archlinux.org/qt5-styleplugins.git) (such that qt apps follow the gtk themes)
 - For qt5 apps, qt5-style-plugins will style them according to the gtk2 theme
 - Symbola Fonts for st, until the coloured emoji bug is fixed  (`fonts-symbola` on Debian)
 - [mononoki Nerd Font](http://www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
