@@ -261,8 +261,7 @@ default_border normal 1
 default_floating_border normal 1
 for_window [class="LibreWolf|firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal"] border pixel 2
 
-# Color theme for qt apps
-exec_always export QT_QPA_PLATFORMTHEME=qt5ct
+# Hide cursor when not needed
 exec unclutter --fork --timeout 3
 
 # inupt method
