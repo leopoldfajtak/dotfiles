@@ -271,7 +271,7 @@ exec export GLFW_IM_MODULE=ibus
 
 # Start other applications
 exec keepassxc ~/LocalSecrets.kdbx
-exec --no-startup-id librewolf
+exec --no-startup-id firefox
 exec --no-startup-id (sleep 30; nextcloud)
 exec mbsync
 
