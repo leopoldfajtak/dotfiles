@@ -27,6 +27,7 @@ Other dependencies are:
 - [Vundle](http://github.com/VundleVim/Vundle.vim) for vimrc
 - Some gvim package for accessing the system clipboard (`vim-gtk` on Debian)
 - `picom` to if you don't like screen-tearing
+- `betterlockscreen`
 
 ### Configuration
 - For the theme switch to happen in the correct time, a `LocationInfo` has to be entered into the script [theming_job.py](Home/.config/themechange/theming_job.py) For this.
