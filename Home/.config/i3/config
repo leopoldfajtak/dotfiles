@@ -262,18 +262,20 @@ default_border normal 1
 default_floating_border normal 1
 for_window [class="firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal"] border pixel 2
 
+# start compositor
+exec --no-startup-id picom --config ~/.config/picom.conf -b
+
 # Color theme for qt apps
 exec_always export QT_QPA_PLATFORMTHEME=qt5ct
 exec unclutter --fork --timeout 3
 
 # inupt method
 exec_always ibus-daemon --xim -d -r
-
 exec export GLFW_IM_MODULE=ibus
 
 # Start other applications
 exec keepassxc ~/Nextcloud/Passwords.kdbx
 exec --no-startup-id firefox
-exec --no-startup-id nextcloud
+exec --no-startup-id (sleep 30; nextcloud)
 exec mbsync
 
