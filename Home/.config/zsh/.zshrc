@@ -107,6 +107,7 @@ alias davmsync="vdirsyncer sync && mailsync"
 alias mutt="neomutt && mailsync"
 alias itodo="todo list --sort due && todo repl"
 alias ls='ls --color=auto'
+alias pacman='pacman --color auto'
 
 # syntax highlighting should be last
 source ~/repos/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh

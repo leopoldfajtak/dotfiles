@@ -15,6 +15,7 @@ export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
 export SCRIPT_DIR="$HOME/.bin"
 export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
 export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/mbsync/config"
+export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/python/pythonrc"
 
 # other stuff
 export QT_QPA_PLATFORMTHEME="gtk2"
