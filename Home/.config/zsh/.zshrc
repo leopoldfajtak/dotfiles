@@ -104,8 +104,8 @@ if [ -n "${DISPLAY}" ] && [ -z "$TMUX" ]; then
 fi
 
 alias davmsync="vdirsyncer sync && mailsync"
-alias mutt="neomutt && mailsync"
-alias itodo="todo list --sort due && todo repl"
+alias mutt="neomutt && mailsync&"
+alias itodo="todo list --sort due && todo repl && nohup vdirsyncer sync >/dev/null 2>&1 &"
 alias ls='ls --color=auto'
 
 # syntax highlighting should be last
