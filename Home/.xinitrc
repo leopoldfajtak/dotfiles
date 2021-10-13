@@ -1,5 +1,5 @@
 # check if Xresources exists and if so rebuild X resources database
-[[ -f ${XDG_CONFIG_HOME}/x11/xresources ]] && xrdb ${XDG_CONFIG_HOME}/x11/Xresources
+[[ -f ${XDG_CONFIG_HOME}/x11/xresources ]] && xrdb ${XDG_CONFIG_HOME}/x11/xresources
 
 # inupt method
 # ibus-daemon -d -r
