@@ -1,0 +1,6 @@
+#!/bin/sh
+
+bd="dark";
+d=$(date +%H);
+[ "$d" -lt "18" ] && bd="bright";
+echo $bd;
