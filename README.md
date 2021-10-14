@@ -32,19 +32,13 @@ Other dependencies are:
 - My `dmenu` configuration
 
 ### Configuration
-- For the theme switch to happen in the correct time, a `LocationInfo` has to be entered into the script [theming_job.py](Home/.config/themechange/theming_job.py) For this.
-- The accent color (here cyan is set) can be changed in `.Xresources`. The i3config file, as well as urxvt, take their color definitions from there. For the gtk theme, 
-[gtk-3.0_settings_dark](Home/.config/themechange/gtk-3.0_settings_dark)
-[gtk-3.0_settings_bright](Home/.config/themechange/gtk-3.0_settings_bright)
-[gtkrc-2.0_bright](Home/.config/themechange/gtkrc-2.0_bright)
-[gtkrc-2.0_dark](Home/.config/themechange/gtkrc-2.0_dark)
+- The accent color (here cyan is set) can be changed in `.config/x11/xresources_*`. The i3config file, as well as urxvt, take their color definitions from there. For the gtk theme, 
+[gtk-3.0_settings_dark](Home/.config/gtk-3.0/settings_dark)
+[gtk-3.0_settings_bright](Home/.config/gtk-3.0/settings_bright)
+[gtkrc-2.0_bright](Home/.config/gtk-2.0/settings_bright)
+[gtkrc-2.0_dark](Home/.config/gtk-2.0/settings_dark)
 need to be adapted. Corresponding themes for each accent colour can be found in the numix-solarized-gtk-theme repository, as well as in the icon and cursor theme files.
-### Files
-- [.xinitrc](Home/.xinitrc)
-- [.Xresources](Home/.Xresources)
-- [i3blocks.conf](Home/.config/i3blocks.conf)
-- [config](Home/.config/i3/config)
-- [Everything from themechange](Home/.config/themechange/)
+- Don't forget to make daily cronjobs for `settheme dark` and `settheme bright`, respectively.
 ### Known issues
 When the themechange occurs most applications need to be relaunched in order for it to take effect. The Window borders, and i3bar change immediately, though.
 
