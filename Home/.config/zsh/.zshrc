@@ -106,7 +106,7 @@ fi
 
 alias davmsync="vdirsyncer sync && mailsync"
 alias mutt="neomutt && mailsync&"
-alias itodo="todo list --startable --sort due && todo repl && nohup vdirsyncer sync >/dev/null 2>&1 &"
+alias itodo="todo list --sort due && todo repl && nohup vdirsyncer sync >/dev/null 2>&1 &"
 alias ls='ls --color=auto'
 alias pacman='pacman --color auto'
 
