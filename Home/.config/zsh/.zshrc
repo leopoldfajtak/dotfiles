@@ -111,5 +111,5 @@ alias ls='ls --color=auto'
 alias pacman='pacman --color auto'
 
 # syntax highlighting should be last
-source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 
