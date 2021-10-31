@@ -9,20 +9,14 @@ i3wm (and st)
 ### Dependencies
 The dark and bright wallpapers should be located in [.config](Home/.config/) as `wallpaper_bright.png` and `wallpaper_dark.png` respectively.
 Other dependencies are:
-- python3-pip and the astral package
 - i3blocks, as well as some [default scripts](https://github.com/vivien/i3blocks-contrib) to be deployed in ~/.bin
-- [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme) repository
+- [numix-solarized-gtk-theme](https://aur.archlinux.org/packages/gtk-theme-numix-solarized)
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
 - [qt5-styleplugins](https://aur.archlinux.org/qt5-styleplugins.git) (such that qt apps follow the gtk themes)
-- For qt5 apps, qt5-style-plugins will style them according to the gtk2 theme
-- Symbola Fonts for st, until the coloured emoji bug is fixed  (`fonts-symbola` on Debian)
-- [mononoki Nerd Font](http://www.nerdfonts.com/font-downloads) (Terminal font - see section about zsh)
-- [Overpass Nerd Font](http://www.nerdfonts.com/font-downloads) (As system font)
-- [Inconsolata Nerd Font]
+- [Symbola Fonts](https://aur.archlinux.org/packages/otf-symbola) for st, until the coloured emoji bug is fixed
+- Nerd fonts Inconsolata - it's best to install [all of them](https://aur.archlinux.org/packages/nerd-fonts-complete)
+- [Takao Gothic Font](https://aur.archlinux.org/packages/otf-takao) for japanese characters
 - `unclutter` for removing the cursor when not used
-- Takao Gothic fonts
-- Because I always need it: [Fonts in Debian](https://wiki.debian.org/fonts)
-- `x11-xkb-utils`, [xkblayout-state](https://github.com/nonpop/xkblayout-state) for keyboard layouts ([tutorial](https://www.codingunicorns.com/blog/2016/09/30/Language-indicator-in-i3wm/))
 - `st`. [my st build](https://github.com/leopoldfajtak/st)
 - firefox (is set to start automatically)
 - [Vundle](http://github.com/VundleVim/Vundle.vim) for vimrc
@@ -54,7 +48,7 @@ chsh -s $(which zsh)
 - [Inconsolata Nerd Font]
 - `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
 - `xclip`
-- [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting)
+- `zsh-syntax-highlighting`
 ### Files
 - [zshrc](Home/.zshrc)
 
@@ -64,16 +58,11 @@ Font Rendering
 fonts-croscore fonts-crosextra-caladea fonts-crosextra-carlito
 ### Files
 [local.conf](/etc/fonts/local.conf)
-### Original Source
-Thanks to wilbert-vb on
-[Reddit](https://www.reddit.com/r/debian/comments/5sookn/how_to_get_the_perfect_rendering_font_in_debian/)
 
 ## Firefox
-- [Zenfox](https://addons.mozilla.org/en-US/firefox/addon/zen-fox/)
 - [Surfingkeys](https://github.com/brookhong/Surfingkeys)
 - [Ublock-Origin](https://github.com/gorhill/uBlock#ublock-origin)
 - [Privacy-Badger](https://privacybadger.org)
-- [https everywhere](https://www.eff.org/https-everywhere)
 - KeepassXC-browser
 - [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/)
 
