@@ -19,3 +19,6 @@ export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/python/pythonrc"
 
 # other stuff
 export QT_QPA_PLATFORMTHEME="gtk2"
+
+# for personal use
+export BIB="$HOME/dox/latex/uni.bib"
