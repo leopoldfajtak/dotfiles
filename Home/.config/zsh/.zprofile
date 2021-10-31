@@ -2,6 +2,8 @@
 export EDITOR=vim
 export TERMINAL=st
 export BROWSER=firefox
+export READER=zathura
+export OPENER=xdg-open
 
 # ~ clean up
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -22,3 +24,8 @@ export QT_QPA_PLATFORMTHEME="gtk2"
 
 # for personal use
 export BIB="$HOME/dox/latex/uni.bib"
+export BIBFILE="$HOME/dox/latex/uni.bib"
+export PDFPATH="$HOME/sci"
+export CLIPINW="xclip -i"
+export CLIPOUT="xclip -o"
+
