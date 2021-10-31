@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sa=$(echo $1 | awk -F '.' '{printf "%02d.%02d.", --$1, $2}')
+khal new -a Verpflichtend $sa 18:00 19:00 Orgeldienst -l "Pfarre Floridsdorf"&&
+khal new -a Verpflichtend $1 09:00 10:00 Orgeldienst -l "Pfarre Floridsdorf"&&
+khal new -a Verpflichtend $1 10:30 11:30 Orgeldienst -l "Pfarre Floridsdorf"
+
