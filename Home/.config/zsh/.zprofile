@@ -29,3 +29,4 @@ export PDFPATH="$HOME/sci"
 export CLIPINW="xclip -i"
 export CLIPOUT="xclip -o"
 
+export LVAs="$HOME/Sync/Documents/Universität/LVAs/"
