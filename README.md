@@ -88,7 +88,7 @@ Mail, Todo, Contacts, Calendar
 ------------------------------
 ### Dependencies
 - `pass` to manage passwords for mail and calendar synchronisation, as well as `pinentry-gtk-2` for prompting the password
-- `neomutt` for mail (with the dependencies according to lukesmithxyz's `muttwiz`)
+- `neomutt` for mail (with the dependencies according to lukesmithxyz's `muttwiz`) - make sure to install [urlview-xdg-git](https://aur.archlinux.net/urlview-xdg-git) instead of urlview.
 - `vdirsyncer`, `khal`, `todoman`, `click-repl`  for task, calendar and contact management
 
 Other programs
