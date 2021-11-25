@@ -211,16 +211,17 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $Locker betterlockscreen -l && sleep 1
+set $Locker betterlockscreen -l dim
+set $Loginctl loginctl
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hybernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
 	bindsym l exec --no-startup-id $Locker, mode "default"
 	bindsym e exec --no-startup-id i3-msg exit, mode "default"
-	bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
-	bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
-	bindsym r exec --no-startup-id systemctl reboot, mode "default"
-	bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
+	bindsym s exec --no-startup-id $Locker & $Loginctl suspend, mode "default"
+	bindsym h exec --no-startup-id $Locker & $Loginctl hibernate, mode "default"
+	bindsym r exec --no-startup-id $Loginctl reboot, mode "default"
+	bindsym Shift+s exec --no-startup-id $Loginctl poweroff -i, mode "default"
 	
 	#back to normal
 	bindsym Return mode "default"
