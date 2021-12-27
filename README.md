@@ -69,7 +69,7 @@ fonts-croscore fonts-crosextra-caladea fonts-crosextra-carlito
 Japanese Input
 --------------
 ### Packages
-`ibus-gtk3`, `ibus-clutter`, `ibus-mozc`,
+`ibus-gtk3`, `ibus-clutter`, `fcitx-mozc`,
 
 ### Files
 - [.xinitrc](Home/.xinitrc)
