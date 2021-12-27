@@ -269,13 +269,12 @@ exec unclutter --fork --timeout 3
 # work against screen tearing
 exec picom -b
 # inupt method
-exec_always ibus-daemon --xim -d -r
-
-exec export GLFW_IM_MODULE=ibus
+exec --no-startup-id fcitx -d
 
 # Start other applications
 exec keepassxc ~/LocalSecrets.kdbx
 for_window [class="KeePassXC"] move scratchpad, scratchpad show
+exec syncthing
 exec --no-startup-id (sleep 30; nextcloud)
 exec mbsync
 
