@@ -4,17 +4,16 @@ export PATH=${PATH}:${SCRIPT_DIR}:/usr/sbin/:${HOME}/Jts/:${HOME}/portfolio/
 [ -f ${SCRIPT_DIR}/settheme ] && [ -f ${SCRIPT_DIR}/current_theme ] &&
     bd=$(${SCRIPT_DIR}/current_theme); ${SCRIPT_DIR}/settheme $bd
 
-# inupt method
-# ibus-daemon -d -r
-export GTK_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-export QT_IM_MODULE=ibus
-export GLFW_IM_MODULE=ibus
-export XIM_PROGRAM=/usr/bin/ibus
-
 # set editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# input method
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=\@im=fcitx
+export GLFW_IM_MODULE=fcitx
+export XIM_PROGRAM=/usr/bin/fcitx
 
 # var for colortheme of qt apps
 export QT_QPA_PLATFORMTHEME=gtk2
