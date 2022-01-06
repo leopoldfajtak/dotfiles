@@ -4,6 +4,7 @@ export TERMINAL=st
 export BROWSER=firefox
 export READER=zathura
 export OPENER=xdg-open
+export SVDIR=~/service
 
 # ~ clean up
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -21,6 +22,7 @@ export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/python/pythonrc"
 
 # other stuff
 export QT_QPA_PLATFORMTHEME="gtk2"
+export ALPHAVANTAGE_API_KEY="CMQTIVWQHAI3O992"
 
 # for personal use
 export BIB="$HOME/dox/latex/uni.bib"
@@ -29,4 +31,4 @@ export PDFPATH="$HOME/sci"
 export CLIPINW="xclip -i"
 export CLIPOUT="xclip -o"
 
-export LVAs="$HOME/Sync/Documents/Universität/LVAs/"
+export LVAs="$HOME/dox/Universität/LVAs/"
