@@ -1,7 +1,7 @@
 # Default programs
 export EDITOR=vim
 export TERMINAL=st
-export BROWSER=firefox
+export BROWSER=iceweasel
 export READER=zathura
 export OPENER=xdg-open
 export SVDIR=~/service
