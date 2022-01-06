@@ -174,7 +174,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+minus scratchpad show
 
-assign [class="LibreWolf|firefox|Brave-browser|Tor Browser|torbrowser-launcher"] $ws2
+assign [class="iceweasel|Tor Browser|firefox|Brave-browser|orbrowser-launcher"] $ws2
 assign [class="zoom"] $ws4
 
 # reload the configuration file
@@ -261,7 +261,7 @@ bar {
 hide_edge_borders smart
 default_border normal 1
 default_floating_border normal 1
-for_window [class="Tor Browser|LibreWolf|firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal"] border pixel 2
+for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal"] border pixel 2
 
 # Hide cursor when not needed
 exec unclutter --fork --timeout 3
