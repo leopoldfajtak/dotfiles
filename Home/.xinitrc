@@ -9,11 +9,11 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 # input method
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=\@im=fcitx
-export GLFW_IM_MODULE=fcitx
-export XIM_PROGRAM=/usr/bin/fcitx
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS=\@im=fcitx5
+export GLFW_IM_MODULE=fcitx5
+export XIM_PROGRAM=/usr/bin/fcitx5
 
 # var for colortheme of qt apps
 export QT_QPA_PLATFORMTHEME=gtk2
