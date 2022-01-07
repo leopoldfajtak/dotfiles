@@ -261,7 +261,7 @@ bar {
 hide_edge_borders smart
 default_border normal 1
 default_floating_border normal 1
-for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal"] border pixel 2
+for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal|Anki"] border pixel 2
 
 # Hide cursor when not needed
 exec unclutter --fork --timeout 3
