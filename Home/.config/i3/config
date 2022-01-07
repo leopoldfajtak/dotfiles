@@ -212,7 +212,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 set $Locker betterlockscreen -l dim
-set $Loginctl systemctl
+set $Loginctl loginctl
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hybernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
