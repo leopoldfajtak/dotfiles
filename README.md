@@ -20,7 +20,8 @@ Other dependencies are:
 - `st`. [my st build](https://github.com/leopoldfajtak/st)
 - firefox (is set to start automatically)
 - [Vundle](http://github.com/VundleVim/Vundle.vim) for vimrc
-- Some gvim package for accessing the system clipboard (`vim-gtk` on Debian)
+- `neovim`
+- Some gvim package for accessing the system clipboard (`vim-gtk` on Debian) (althoug it's not clear whether this is still necessary with nvim)
 - `picom` to if you don't like screen-tearing
 - [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 - My `dmenu` configuration

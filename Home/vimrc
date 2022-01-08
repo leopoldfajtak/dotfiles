@@ -1,0 +1,135 @@
+set nocompatible              " required
+filetype off                  " required
+
+" cleanup of ~
+if !has('nvim')
+    set viminfo+=n~/.vim/viminfo
+endif
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" add all your plugins here (note older versions of Vundle
+" used Bundle instead of Plugin)
+
+Plugin 'chriskempson/base16-vim'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'vim-scripts/indentpython.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'preservim/vimux'
+Plugin 'altercation/vim-colors-solarized'
+"Plugin 'nvie/vim-flake8'
+
+" ...
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" Take care of the cursor shape in tmux
+if exists('$TMUX')
+    let &t_SI = "\<Esc>Ptmux;\<Esc>\e[5 q\<Esc>\\"
+    let &t_EI = "\<Esc>Ptmux;\<Esc>\e[2 q\<Esc>\\"
+else
+    let &t_SI = "\e[5 q"
+    let &t_EI = "\e[2 q"
+endif
+
+"filetype plugin indent on
+
+set t_Co=256
+syntax enable
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
+"
+" Run command in  Vimux
+" More such bindings can be found at https://www.bugsnag.com/blog/tmux-and-vim
+let mapleader = ","
+map <leader>vp :VimuxPromptCommand<cr>
+
+let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_python_flake8_args = '--ignore=E221,E241,E251'
+
+"if commented out colorscheme will be taken from shell
+colorscheme solarized
+highlight LineNr ctermfg=102
+highlight link jsonNumber javaScriptNumber
+highlight link jsonBoolean javaScriptFunction
+highlight link pythonOperator pythonExClass
+
+set encoding=utf-8
+set fileencoding=utf-8
+
+set foldmethod=syntax
+
+set laststatus=2
+set ruler
+set number
+set tabstop=8
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set autoindent
+set smartindent
+set nostartofline
+set noswapfile
+set scrolloff=3
+
+set clipboard=unnamed
+
+" Easier split navigation
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
+" Easy folding
+" nnoremap <space> za
+
+autocmd StdinReadPre * let s:std_in=1
+" make .brik and .mbrik documents open with latex coloring
+autocmd BufNewFile,BufRead *.brik set syntax=tex
+autocmd BufNewFile,BufRead *.mbrik set syntax=tex
+
+"Papis vim integration
+function! PapisBibtexRef()
+    let l:temp = tempname()
+    echom l:temp
+    silent exec "!papis bibtex ref -o ".l:temp
+    let l:olda = @a
+    let @a = join(readfile(l:temp), ',')
+    normal! "ap
+    redraw!
+    let @a = l:olda
+endfunction
+
+command! -nargs=0 BibRef call PapisBibtexRef()
+command! -nargs=0 BibOpen exec "!papis bibtex open"
+
+" lilypond
+filetype off
+set runtimepath+=/usr/local/share/lilypond/current/vim/
+filetype on
+syntax on
