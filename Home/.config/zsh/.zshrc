@@ -109,6 +109,8 @@ alias mutt="neomutt && mailsync&"
 alias itodo="todo list --sort due && todo repl && nohup vdirsyncer sync >/dev/null 2>&1 &"
 alias ls='ls --color=auto'
 alias pacman='pacman --color auto'
+alias vi='nvim'
+alias vim='nvim'
 
 # syntax highlighting should be last
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
