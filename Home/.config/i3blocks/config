@@ -55,6 +55,15 @@ separator=false
 # interval=10
 # separator=false
 
+# Temperature
+[temperature]
+command=$SCRIPT_DIR/temperature
+label=TEMP
+interval=10
+T_WARN=70
+T_CRIT=90
+#SENSOR_CHIP=""
+
 # CPU usage
 #
 # The script may be called with -w and -c switches to specify thresholds,
