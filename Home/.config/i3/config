@@ -268,8 +268,10 @@ exec unclutter --fork --timeout 3
 
 # work against screen tearing
 exec picom -b
-# inupt method
+# input method
 exec --no-startup-id fcitx5 -d
+# notification service
+exec --no-startup-id dunst&
 
 # Start other applications
 exec keepassxc ~/LocalSecrets.kdbx
