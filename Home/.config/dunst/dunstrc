@@ -14,19 +14,16 @@ frame_color = "#93a1a1"
 separator_color = "#93a1a1"
 
 [urgency_low]
-    msg_urgency = low
     background = "#073642"
     foreground = "#657b83"
     timeout = 3
 
 [urgency_normal]
-    msg_urgency = normal
     background = "#586e75"
     foreground = "#93a1a1"
     timeout = 5
 
 [urgency_critical]
-    msg_urgency = critical
     background = "#dc322f"
     foreground = "#eee8d5"
     timeout = 10
