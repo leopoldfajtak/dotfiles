@@ -71,6 +71,11 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 
+# set editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
@@ -111,7 +116,7 @@ alias ls='ls --color=auto'
 alias pacman='pacman --color auto'
 alias vi='nvim'
 alias vim='nvim'
-alias newsboat='cd ~/Media && newsboat'
+alias newsboat='cd ~/Media/music && newsboat'
 
 # syntax highlighting should be last
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
