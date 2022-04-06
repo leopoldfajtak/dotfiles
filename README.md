@@ -13,8 +13,7 @@ Other dependencies are:
 - [numix-solarized-gtk-theme](https://aur.archlinux.org/packages/gtk-theme-numix-solarized)
 - [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
 - [qt5-styleplugins](https://aur.archlinux.org/qt5-styleplugins.git) (such that qt apps follow the gtk themes)
-- [Symbola Fonts](https://aur.archlinux.org/packages/otf-symbola) for st, until the coloured emoji bug is fixed
-- Nerd fonts Inconsolata - it's best to install [all of them](https://aur.archlinux.org/packages/nerd-fonts-complete)
+- Mononoki Fonts. Actually I'd love to use Inconsolata, but it has had rendering issues for [years](https://github.com/googlefonts/Inconsolata/issues/42), and the nerd font comes with it's own very weird [issues](https://github.com/ryanoasis/nerd-fonts/issues/509) 
 - [Takao Gothic Font](https://aur.archlinux.org/packages/otf-takao) for japanese characters
 - `unclutter` for removing the cursor when not used
 - `st`. [my st build](https://github.com/leopoldfajtak/st)
@@ -45,8 +44,6 @@ Make zsh your default shell by running
 chsh -s $(which zsh)
 ```
 ### Dependencies
-- [mononoki Nerd Font](www.nerdfonts.com/font-downloads)
-- [Inconsolata Nerd Font]
 - `tmux`, and the [TPM](https://github.com/tmux-plugins/tpm) from the repository (not from apt). The `.tmux.conf` file is provided here
 - `xclip`
 - `zsh-syntax-highlighting`
