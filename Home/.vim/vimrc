@@ -2,7 +2,9 @@ set nocompatible              " required
 filetype off                  " required
 
 " cleanup of ~
-set viminfo+=n~/.vim/viminfo
+if !has('nvim')
+    set viminfo+=n~/.vim/viminfo
+endif
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -44,7 +46,6 @@ else
     let &t_EI = "\e[2 q"
 endif
 
-syntax on
 "filetype plugin indent on
 
 set t_Co=256
@@ -112,4 +113,23 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd BufNewFile,BufRead *.brik set syntax=tex
 autocmd BufNewFile,BufRead *.mbrik set syntax=tex
 
+"Papis vim integration
+function! PapisBibtexRef()
+    let l:temp = tempname()
+    echom l:temp
+    silent exec "!papis bibtex ref -o ".l:temp
+    let l:olda = @a
+    let @a = join(readfile(l:temp), ',')
+    normal! "ap
+    redraw!
+    let @a = l:olda
+endfunction
 
+command! -nargs=0 BibRef call PapisBibtexRef()
+command! -nargs=0 BibOpen exec "!papis bibtex open"
+
+" lilypond
+filetype off
+set runtimepath+=/usr/local/share/lilypond/current/vim/
+filetype on
+syntax on

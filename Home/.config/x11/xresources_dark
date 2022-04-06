@@ -83,7 +83,7 @@ Xft.lcdfilter:              lcddefault
 !-------------------------------------------------------------------------------
 ! Dmenu settings
 !-------------------------------------------------------------------------------
-dmenu.font:                 RobotoMono\ Nerd\ Font::style=light
+dmenu.font:                 mono::style=light
 dmenu.normfgcolor:          S_base1 
 dmenu.normbgcolor:          S_base02
 dmenu.selfgcolor:           S_base02

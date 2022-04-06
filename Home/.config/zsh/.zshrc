@@ -111,6 +111,7 @@ alias ls='ls --color=auto'
 alias pacman='pacman --color auto'
 alias vi='nvim'
 alias vim='nvim'
+alias newsboat='cd ~/Media && newsboat'
 
 # syntax highlighting should be last
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
