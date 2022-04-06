@@ -6,3 +6,9 @@
 
 [locale]
     firstweekday = 6
+    timeformat= %H:%M
+    dateformat= %d.%m.
+    longdateformat= %d.%m.%Y
+    datetimeformat= %d.%m. %H:%M
+    longdatetimeformat= %d.%m.%Y %H:%M
+
