@@ -1,7 +1,14 @@
+# input method
+export GTK_IM_MODULE=fcitx5
+export XMODIFIERS=@im=fcitx5
+export QT_IM_MODULE=fcitx5
+export GLFW_IM_MODULE=fcitx5
+export XIM_PROGRAM=/usr/bin/fcitx5
+
 # Default programs
 export EDITOR=vim
 export TERMINAL=st
-export BROWSER=firefox
+export BROWSER=iceweasel
 export READER=zathura
 export OPENER=xdg-open
 export SVDIR=~/service
@@ -23,6 +30,7 @@ export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/python/pythonrc"
 # other stuff
 export QT_QPA_PLATFORMTHEME="gtk2"
 export ALPHAVANTAGE_API_KEY="CMQTIVWQHAI3O992"
+#export MPD_HOST="$HOME/.config/mpd/socket"
 
 # for personal use
 export BIB="$HOME/dox/latex/uni.bib"
