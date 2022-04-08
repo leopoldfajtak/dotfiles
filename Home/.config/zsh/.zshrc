@@ -52,7 +52,7 @@ setopt autocd		# Automatically cd into typed directory.
 setopt interactive_comments
 
 setopt prompt_subst
-PROMPT='%K{0}%B%F{yellow}%n %(?..%F{red}[%F{14}%?%F{red}]%f) %B%F{green}%3~${git_prompt} %F{blue}%k> %b%f'
+PROMPT='%K{0}%B%F{yellow}%n %(?..%F{red}[%F{14}%?%F{red}]%f) %B%F{green}%3~${git_prompt} %F{blue}%k|> %b%f'
 
 # History in cache directory:
 HISTSIZE=10000000
