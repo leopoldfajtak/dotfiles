@@ -109,6 +109,18 @@ if [ -n "${DISPLAY}" ] && [ -z "$TMUX" ]; then
      (tmux attach -t $FIRST_UNATTACHED_SESSION || tmux)2> /dev/null;
 fi
 
+# Use lf to switch directories and bind it to ctrl-o
+lfcd () {
+    tmp="$(mktemp)"
+    lf -last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp" >/dev/null
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+    fi
+}
+bindkey -s '^o' 'lfcd\n'
+
 alias davmsync="vdirsyncer sync && mailsync"
 alias mutt="neomutt && mailsync&"
 alias itodo="todo list --sort due && todo repl && nohup vdirsyncer sync >/dev/null 2>&1 &"
@@ -117,6 +129,7 @@ alias pacman='pacman --color auto'
 alias vi='nvim'
 alias vim='nvim'
 alias newsboat='cd ~/Media/music && newsboat'
+alias lf="lfub"
 
 # syntax highlighting should be last
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
