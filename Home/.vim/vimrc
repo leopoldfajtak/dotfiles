@@ -21,7 +21,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'chriskempson/base16-vim'
 Plugin 'tmhedberg/SimpylFold'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'ycm-core/YouCompleteMe'
@@ -29,6 +28,9 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'preservim/vimux'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'tpope/vim-commentary'
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-entire'
 "Plugin 'nvie/vim-flake8'
 
 " ...
@@ -81,7 +83,7 @@ set fileencoding=utf-8
 
 set foldmethod=syntax
 
-set laststatus=2
+set laststatus=1
 set ruler
 set number
 set tabstop=8
@@ -110,23 +112,11 @@ nmap <C-l> <C-w>l
 
 autocmd StdinReadPre * let s:std_in=1
 " make .brik and .mbrik documents open with latex coloring
-autocmd BufNewFile,BufRead *.brik set syntax=tex
-autocmd BufNewFile,BufRead *.mbrik set syntax=tex
+autocmd BufNewFile,BufRead *.brik set filetype=tex syntax=tex
+autocmd BufNewFile,BufRead *.mbrik set filetype=tex syntax=tex
 
-"Papis vim integration
-function! PapisBibtexRef()
-    let l:temp = tempname()
-    echom l:temp
-    silent exec "!papis bibtex ref -o ".l:temp
-    let l:olda = @a
-    let @a = join(readfile(l:temp), ',')
-    normal! "ap
-    redraw!
-    let @a = l:olda
-endfunction
-
-command! -nargs=0 BibRef call PapisBibtexRef()
-command! -nargs=0 BibOpen exec "!papis bibtex open"
+" Additional comment strings for vim-commentary
+autocmd FileType tex setlocal commentstring=\%\ %s
 
 " lilypond
 filetype off
