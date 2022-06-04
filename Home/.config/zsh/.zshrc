@@ -5,6 +5,16 @@ if [ "${TERM}" = 'rxvt-256color' ] && ! [ -f '/usr/share/terminfo/r/rxvt-256colo
     export TERM='rxvt-unicode'
 fi
 
+# Start tmux session
+if [ -n "${DISPLAY}" ] && [ -z "$TMUX" ]; then
+     FIRST_UNATTACHED_SESSION=$(tmux ls -F '#{session_name}|#{?session_attached,attached,not attached}' 2>/dev/null | grep 'not attached$' | tail -n 1 | cut -d '|' -f1)
+    if [ -n "$FIRST_UNATTACHED_SESSION" ]; then
+         tmux attach -t $FIRST_UNATTACHED_SESSION;
+    else
+        tmux;
+    fi
+fi
+
 # functions
 setup_git_prompt() {
     if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
@@ -102,12 +112,6 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
-
-# Start tmux session
-if [ -n "${DISPLAY}" ] && [ -z "$TMUX" ]; then
-     FIRST_UNATTACHED_SESSION=$(tmux ls -F '#{session_name}|#{?session_attached,attached,not attached}' 2>/dev/null | grep 'not attached$' | tail -n 1 | cut -d '|' -f1)
-     (tmux attach -t $FIRST_UNATTACHED_SESSION || tmux)2> /dev/null;
-fi
 
 # Use lf to switch directories and bind it to ctrl-o
 lfcd () {
