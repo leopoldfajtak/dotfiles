@@ -9,19 +9,20 @@ endif
 packadd minpac
 call minpac#init()
 
-call minpac#add('k-takata/minpac', {'type':'opt'})
-call minpac#add('chriskempson/base16-vim')
-call minpac#add('tmhedberg/SimpylFold')
-call minpac#add('vim-scripts/indentpython.vim')
-call minpac#add('tpope/vim-surround')
-call minpac#add('ycm-core/YouCompleteMe')
-call minpac#add('vim-syntastic/syntastic')
-call minpac#add('christoomey/vim-tmux-navigator')
-call minpac#add('preservim/vimux')
 call minpac#add('altercation/vim-colors-solarized')
-call minpac#add('tpope/vim-commentary')
-call minpac#add('kana/vim-textobj-user')
+call minpac#add('chriskempson/base16-vim')
+call minpac#add('christoomey/vim-tmux-navigator')
+call minpac#add('k-takata/minpac', {'type':'opt'})
 call minpac#add('kana/vim-textobj-entire')
+call minpac#add('kana/vim-textobj-user')
+call minpac#add('machakann/vim-highlightedyank')
+call minpac#add('preservim/vimux')
+call minpac#add('tmhedberg/SimpylFold')
+call minpac#add('tpope/vim-commentary')
+call minpac#add('tpope/vim-surround')
+call minpac#add('vim-scripts/indentpython.vim')
+call minpac#add('vim-syntastic/syntastic')
+call minpac#add('ycm-core/YouCompleteMe')
 " call minpac#add('nvie/vim-flake8')
 
 " minpac commands:
@@ -77,8 +78,17 @@ set smartindent
 set nostartofline
 set noswapfile
 set scrolloff=3
-
 set clipboard=unnamed
+
+" Neovim only options
+if has('nvim')
+    set inccommand=split
+endif
+
+" Vim only options
+if !has('nvim')
+    map y <Plug>(highlightedyank)
+endif
 
 " Easier split navigation
 nmap <C-h> <C-w>h
