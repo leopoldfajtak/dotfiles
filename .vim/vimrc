@@ -19,6 +19,7 @@ call minpac#add('machakann/vim-highlightedyank')
 call minpac#add('preservim/vimux')
 call minpac#add('tmhedberg/SimpylFold')
 call minpac#add('tpope/vim-commentary')
+call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-surround')
 call minpac#add('vim-scripts/indentpython.vim')
 call minpac#add('vim-syntastic/syntastic')
@@ -79,6 +80,7 @@ set nostartofline
 set noswapfile
 set scrolloff=3
 set clipboard=unnamed
+set history=200
 
 " Neovim only options
 if has('nvim')
@@ -97,6 +99,16 @@ nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 " Easy folding
 " nnoremap <space> za
+
+" Easier navigation of ex history
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+
+" Example for using repeat.vim to create new
+" repeatable mappings
+nmap <silent> <Plug>TransposeCharacters xp
+            \:call repeat#set("\<Plug>TransposeCharacters")<CR>
+nmap cp <Plug>TransposeCharacters
 
 autocmd StdinReadPre * let s:std_in=1
 " make .brik and .mbrik documents open with latex coloring
