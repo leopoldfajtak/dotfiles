@@ -6,7 +6,7 @@ export GLFW_IM_MODULE=fcitx5
 export XIM_PROGRAM=/usr/bin/fcitx5
 
 # Default programs
-export EDITOR=vim
+export EDITOR=nvim
 export TERMINAL=st
 export BROWSER=iceweasel
 export READER=zathura
@@ -18,14 +18,15 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XINITRC="${XDG_CONFIG_HOME:-$HOME/.config}/x11/xinitrc"
-export NOTMUCH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/notmuch-config"
+export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
+export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export GTK2_RC_FILES="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-2.0/gtkrc-2.0"
 export LESSHISTFILE="-"
-export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
-export SCRIPT_DIR="$HOME/.local/bin"
-export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
 export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/mbsync/config"
+export NOTMUCH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/notmuch-config"
+export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/python/pythonrc"
+export SCRIPT_DIR="$HOME/.local/bin"
 
 # other stuff
 export QT_QPA_PLATFORMTHEME="gtk2"
@@ -40,6 +41,8 @@ export CLIPINW="xclip -i"
 export CLIPOUT="xclip -o"
 
 export LVAs="$HOME/dox/Universität/LVAs/"
+
+export PATH=${PATH}:${SCRIPT_DIR}:/usr/sbin/:${HOME}/Jts/:${HOME}/portfolio/
 
 # This is the list for lf icons:
 export LF_ICONS="di=📁:\
