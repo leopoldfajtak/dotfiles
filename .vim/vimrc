@@ -3,7 +3,7 @@ filetype off                  " required
 
 " cleanup of ~
 if !has('nvim')
-    set viminfo+=n~/.vim/viminfo
+  set viminfo+=n~/.vim/viminfo
 endif
 
 packadd minpac
@@ -33,9 +33,9 @@ command! PackClean call minpac#clean()
 set t_Co=256
 syntax enable
 if has('gui_running')
-    set background=light
+  set background=light
 else
-    set background=dark
+  set background=dark
 endif
 
 "let g:syntastic_always_populate_loc_list = 1
@@ -45,6 +45,7 @@ endif
 "
 " Run command in  Vimux
 " More such bindings can be found at https://www.bugsnag.com/blog/tmux-and-vim
+" TODO check if this plugin is stell needed with neovim's terminal
 let mapleader = ","
 map <leader>vp :VimuxPromptCommand<cr>
 
@@ -65,7 +66,7 @@ set foldmethod=syntax
 
 " Make tab characters in document visible
 set list
-set listchars=tab:▸\ 
+set listchars=tab:▸\
 " Print spaces instead of tabs
 set tabstop=4
 set softtabstop=4
@@ -100,6 +101,22 @@ function! SummarizeTabs()
 endfunction
 nmap <S-Tab> :call Stab()<CR>
 
+function! Preserve(command)
+  " Preparation: save last search, and cursor position.
+  let _s=@/
+  let l = line(".")
+  let c = col(".")
+  " Do the business:
+  execute a:command
+  " Clean up: restore previous search history, and cursor position
+  let @/=_s
+  call cursor(l, c)
+endfunction
+" Remove traling whitespaces
+nmap _$ :call Preserve("%s/\\s\\+$//e")<CR>
+" Reformat indentations
+nmap _= :call Preserve("normal gg=G")<CR>
+
 set laststatus=1
 set ruler
 set number
@@ -117,12 +134,12 @@ set history=200
 
 " Neovim only options
 if has('nvim')
-    set inccommand=split
+  set inccommand=split
 endif
 
 " Vim only options
 if !has('nvim')
-    map y <Plug>(highlightedyank)
+  map y <Plug>(highlightedyank)
 endif
 
 " Easier split navigation
@@ -140,16 +157,36 @@ cnoremap <C-n> <Down>
 " Example for using repeat.vim to create new
 " repeatable mappings
 nmap <silent> <Plug>TransposeCharacters xp
-            \:call repeat#set("\<Plug>TransposeCharacters")<CR>
+      \:call repeat#set("\<Plug>TransposeCharacters")<CR>
 nmap cp <Plug>TransposeCharacters
 
-autocmd StdinReadPre * let s:std_in=1
-" make .brik and .mbrik documents open with latex coloring
-autocmd BufNewFile,BufRead *.brik set filetype=tex syntax=tex
-autocmd BufNewFile,BufRead *.mbrik set filetype=tex syntax=tex
+if has("autocmd")
+  " Enable file type detection
+  filetype on
 
-" Additional comment strings for vim-commentary
-autocmd FileType tex setlocal commentstring=\%\ %s
+  " Syntax of these languages is fussy over tabs Vs spaces
+  autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab
+  autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+  " Customisations based on house-style (arbitrary)
+  autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType javascript setlocal ts=4 sts=4 sw=4 expandtab
+  autocmd FileType python setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType tex setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType vim setlocal ts=2 sts=2 sw=2 expandtab
+
+  " Treat .rss files as XML
+  autocmd BufNewFile,BufRead *.rss setfiletype xml
+
+  autocmd StdinReadPre * let s:std_in=1
+  " make .brik and .mbrik documents open with latex coloring
+  autocmd BufNewFile,BufRead *.brik set filetype=tex syntax=tex
+  autocmd BufNewFile,BufRead *.mbrik set filetype=tex syntax=tex
+
+  " Additional comment strings for vim-commentary
+  autocmd FileType tex setlocal commentstring=\%\ %s
+endif
 
 " lilypond
 filetype off
