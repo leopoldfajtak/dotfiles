@@ -7,14 +7,19 @@
 # otherwise it opens link in browser.
 
 # If no url given. Opens browser. For using script as $BROWSER.
+
+# Prerequisites for nebula:
+# + Copy password file to the directory enabled for secrets service (see https://c3pb.de/blog/keepassxc-secrets-service.html)
+# + Write the username into $XDG_CONFIG_HOME/nebula/user.txt
+
 [ -z "$1" ] && { "$BROWSER"; exit; }
 
 case "$1" in
-	*mkv|*webm|*mp4|*youtube.com/watch*|*youtube.com/playlist*|*youtu.be*|*hooktube.com*|*bitchute.com*|*videos.lukesmith.xyz*|*odysee.com*)
+	*mkv|*webm|*mp4|*ogv|*youtube.com/watch*|*youtube.com/playlist*|*youtu.be*|*hooktube.com*|*bitchute.com*|*videos.lukesmith.xyz*|*odysee.com*)
 		setsid -f mpv --profile=720p -quiet "$1" >/dev/null 2>&1 ;;
-        *nebula.app/videos/*)
-                pwd=$(secret-tool lookup URL watchnebula.com)
-                setsid -f mpv --profile=720p --ytdl-raw-options=username=$(<$XDG_CACHE_HOME/nebula/user.txt),password=$pwd -quiet "$1" > /dev/null 2>&1;;
+        *nebula.tv/videos/*)
+                pwd=$(secret-tool lookup URL nebula.app)
+                setsid -f mpv --profile=720p -quiet --ytdl-raw-options=username=$(<$XDG_CACHE_HOME/nebula/user.txt),password=$pwd "$1" > /dev/null 2>&1;;
 	*png|*jpg|*jpe|*jpeg|*gif)
 		curl -sL "$1" > "/tmp/$(echo "$1" | sed "s/.*\///;s/%20/ /g")" && sxiv -a "/tmp/$(echo "$1" | sed "s/.*\///;s/%20/ /g")"  >/dev/null 2>&1 & ;;
 	*pdf|*cbz|*cbr)
