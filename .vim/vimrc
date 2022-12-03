@@ -19,6 +19,7 @@ call minpac#add('machakann/vim-highlightedyank')
 call minpac#add('preservim/vimux')
 call minpac#add('tmhedberg/SimpylFold')
 call minpac#add('tpope/vim-commentary')
+call minpac#add('tpope/vim-fugitive')
 call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-surround')
 call minpac#add('vim-scripts/indentpython.vim')
@@ -183,6 +184,7 @@ if has("autocmd")
   " make .brik and .mbrik documents open with latex coloring
   autocmd BufNewFile,BufRead *.brik set filetype=tex syntax=tex
   autocmd BufNewFile,BufRead *.mbrik set filetype=tex syntax=tex
+  autocmd BufNewFile,BufRead *.lytex set filetype=tex syntax=tex
 
   " Additional comment strings for vim-commentary
   autocmd FileType tex setlocal commentstring=\%\ %s
