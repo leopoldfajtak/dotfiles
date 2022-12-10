@@ -64,10 +64,18 @@ font pango:Overpass Light 9,FontAwesome 9
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pavolume +5% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pavolume -5% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pavolume toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioRaiseVolume --release exec pkill -RTMIN+1 i3blocks
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioLowerVolume --release exec pkill -RTMIN+1 i3blocks
+bindsym XF86AudioMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86AudioMute --release exec pkill -RTMIN+1 i3blocks
+# bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -146,8 +154,8 @@ set $ws5 "5 "
 set $ws6 "6 "
 set $ws7 "7 "
 set $ws8 "8 "
-set $ws9 "9 "
-set $ws10 "10 "
+set $ws9 "9 "
+set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -175,6 +183,9 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+minus scratchpad show
 
 bindsym $mod+u exec dmenuunicode
+
+# remap keys (this is also in xprofile, but somehow xmodmap does not work at that point
+exec remaps
 
 assign [class="iceweasel|Tor Browser|firefox|Brave-browser|orbrowser-launcher"] $ws2
 assign [class="zoom"] $ws4
@@ -263,7 +274,7 @@ bar {
 hide_edge_borders smart
 default_border normal 1
 default_floating_border normal 1
-for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|vscodium|Signal|Anki"] border pixel 2
+for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|VSCodium|Signal|Anki"] border pixel 2
 
 # work against screen tearing
 exec picom -b
@@ -271,6 +282,10 @@ exec picom -b
 # Start other applications
 exec keepassxc ~/LocalSecrets.kdbx
 for_window [class="KeePassXC"] move scratchpad, scratchpad show
+
+# Connect to chech ivpn server if not at home. User must be logged in, ivpn-service needs to be running
+exec (ping -c 1 leopoldws && barrierc leopoldws) || (ip neigh | grep 192.168.10.1 | awk '{if($5 != "06:a1:51:a8:56:1d"){exit 1}}' || ivpn connect cz.wg.ivpn.net)
+
 exec syncthing
 exec mbsync
 
