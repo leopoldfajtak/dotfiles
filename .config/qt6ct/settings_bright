@@ -1,16 +1,16 @@
 [Appearance]
-color_scheme_path=/usr/share/qt5ct/colors/airy.conf
+color_scheme_path=/usr/share/qt6ct/colors/airy.conf
 custom_palette=false
 standard_dialogs=default
 style=Adwaita
 
 [Fonts]
-fixed="Overpass,9,-1,5,25,0,0,0,0,0"
-general="Overpass,9,-1,5,25,0,0,0,0,0"
+fixed="Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1"
+general="Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1"
 
 [Interface]
 activate_item_on_single_click=1
-buttonbox_layout=3
+buttonbox_layout=0
 cursor_flash_time=1000
 dialog_buttons_have_icons=1
 double_click_interval=400
@@ -24,7 +24,7 @@ underline_shortcut=1
 wheel_scroll_lines=3
 
 [SettingsWindow]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\xf\0\0\0\0\0\0\0\x13\xff\0\0\x5\x88\0\0\xf\x1\0\0\0\x16\0\0\x13\xfe\0\0\x5\x87\0\0\0\x1\0\0\0\0\n\0\0\0\xf\x1\0\0\0\x16\0\0\x13\xfe\0\0\x5\x87)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\xf\0\0\0\0\0\0\0\x13\xff\0\0\x5\x88\0\0\xf\x1\0\0\0\x16\0\0\x13\xfe\0\0\x5\x87\0\0\0\0\0\0\0\0\n\0\0\0\xf\x1\0\0\0\x16\0\0\x13\xfe\0\0\x5\x87)
 
 [Troubleshooting]
 force_raster_widgets=1
