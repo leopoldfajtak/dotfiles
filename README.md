@@ -11,8 +11,7 @@ The dark and bright wallpapers should be located in [.config](Home/.config/) as 
 Other dependencies are:
 - i3blocks, as well as some [default scripts](https://github.com/vivien/i3blocks-contrib) to be deployed in ~/.bin
 - [adw-gtk3](https://github.com/lassekongo83/adw-gtk3), [adw-colors](https://github.com/lassekongo83/adw-colors), as well as Ferdi265's [fork](https://github.com/Ferdi265/adwaita-solarized-qt) of adwaita-qt. To make it work, we need qt5ct and qt6ct.
-- [numix-solarized-gtk-theme](https://aur.archlinux.org/packages/gtk-theme-numix-solarized)
-- [Solarized Colors and Cursors](https://www.gnome-look.org/p/1312499/) (download both files)
+- [solarized-colors-iconpack-git](https://aur.archlinux.org/packages/solarized-colors-iconpack-git)
 - Mononoki Fonts. Actually I'd love to use Inconsolata, but it has had rendering issues for [years](https://github.com/googlefonts/Inconsolata/issues/42), and the nerd font comes with it's own very weird [issues](https://github.com/ryanoasis/nerd-fonts/issues/509) 
 - [Takao Gothic Font](https://aur.archlinux.org/packages/otf-takao) for japanese characters
 - `unclutter` for removing the cursor when not used
