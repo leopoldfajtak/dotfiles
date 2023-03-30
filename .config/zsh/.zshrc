@@ -82,7 +82,7 @@ bindkey -v
 export KEYTIMEOUT=1
 
 # set editor
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 
@@ -133,6 +133,8 @@ alias pacman='pacman --color auto'
 alias vi='nvim'
 alias vim='nvim'
 alias lf="lfub"
+alias tor-browser="tor-browser --allow-remote"
+alias irssi="irssi --config=$XDG_CONFIG_HOME/irssi/config --home=$XDG_DATA_HOME/irssi"
 
 # syntax highlighting should be last
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh

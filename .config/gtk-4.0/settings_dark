@@ -1,7 +1,8 @@
-gtk-theme-name="adw-gtk3"
-gtk-icon-theme-name="adw-gtk3"
-gtk-font-name="Overpass Light 9"
-gtk-cursor-theme-name="Cyan-Cursor"
+[Settings]
+gtk-theme-name=adw-gtk3-dark
+gtk-icon-theme-name=adw-gtk3-dark
+gtk-font-name=Overpass Light 9
+gtk-cursor-theme-name=Cyan-Cursor
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
@@ -11,5 +12,5 @@ gtk-enable-event-sounds=1
 gtk-enable-input-feedback-sounds=1
 gtk-xft-antialias=0
 gtk-xft-hinting=1
-gtk-xft-hintstyle="hintslight"
-gtk-xft-rgba="rgb"
+gtk-xft-hintstyle=hintslight
+gtk-xft-rgba=rgb

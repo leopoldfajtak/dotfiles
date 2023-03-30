@@ -1,14 +1,17 @@
 #!/bin/sh
 
+
 if [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile" ]; then
 	. "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile"
 else
 	. "$HOME/.xprofile"
 fi
 
-
 # var for colortheme of qt apps
-export QT_QPA_PLATFORMTHEME=gtk2
+export QT_QPA_PLATFORMTHEME=qt6ct
+
+# display configuration
+xrandr --output HDMI-0 --left-of DP-0
 
 # start window manager
 exec i3

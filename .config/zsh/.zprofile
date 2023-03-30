@@ -8,10 +8,9 @@ export XIM_PROGRAM=/usr/bin/fcitx5
 # Default programs
 export EDITOR=nvim
 export TERMINAL=st
-export BROWSER=iceweasel
+export BROWSER=firefox
 export READER=zathura
 export OPENER=xdg-open
-export SVDIR=~/service
 
 # ~ clean up
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -29,7 +28,7 @@ export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/python/pythonrc"
 export SCRIPT_DIR="$HOME/.local/bin"
 
 # other stuff
-export QT_QPA_PLATFORMTHEME="gtk2"
+#export QT_QPA_PLATFORMTHEME="qt6ct"
 export ALPHAVANTAGE_API_KEY="CMQTIVWQHAI3O992"
 #export MPD_HOST="$HOME/.config/mpd/socket"
 
@@ -42,7 +41,7 @@ export CLIPOUT="xclip -o"
 
 export LVAs="$HOME/dox/Universität/LVAs/"
 
-export PATH=${PATH}:${SCRIPT_DIR}:/usr/sbin/:${HOME}/Jts/:${HOME}/portfolio/
+export PATH=${PATH}:${SCRIPT_DIR}:/usr/sbin/
 
 # This is the list for lf icons:
 export LF_ICONS="di=📁:\

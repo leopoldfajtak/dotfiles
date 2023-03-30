@@ -1,6 +1,5 @@
-include "/home/leopoldfajtak/.gtkrc-2.0.mine"
-gtk-theme-name="NumixSolarizedDarkCyan"
-gtk-icon-theme-name="Solarized-Deluxe-Iconpack"
+gtk-theme-name="adw-gtk3-dark"
+gtk-icon-theme-name="adw-gtk3-dark"
 gtk-font-name="Overpass Light 9"
 gtk-cursor-theme-name="Cyan-Cursor"
 gtk-cursor-theme-size=0
