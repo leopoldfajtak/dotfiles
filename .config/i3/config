@@ -185,9 +185,9 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+u exec dmenuunicode
 
 # remap keys (this is also in xprofile, but somehow xmodmap does not work at that point
-exec remaps
+exec --no-startup-id remaps
 
-assign [class="iceweasel|Tor Browser|firefox|Brave-browser|orbrowser-launcher"] $ws2
+assign [class="iceweasel|Tor Browser|firefox|Brave-browser|torbrowser-launcher|Pale moon"] $ws2
 assign [class="zoom"] $ws4
 
 # reload the configuration file
@@ -274,18 +274,18 @@ bar {
 hide_edge_borders smart
 default_border normal 1
 default_floating_border normal 1
-for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|VSCodium|Signal|Anki"] border pixel 2
+for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|VSCodium|Signal|Anki|Pale moon"] border pixel 2
 
 # work against screen tearing
-exec picom -b
+exec --no-startup-id picom -b
 
 # Start other applications
 exec keepassxc ~/LocalSecrets.kdbx
 for_window [class="KeePassXC"] move scratchpad, scratchpad show
 
 # Connect to chech ivpn server if not at home. User must be logged in, ivpn-service needs to be running
-exec (ping -c 1 leopoldws && barrierc leopoldws) || (ip neigh | grep 192.168.10.1 | awk '{if($5 != "06:a1:51:a8:56:1d"){exit 1}}' || ivpn connect cz.wg.ivpn.net)
+exec --no-startup-id (ping -c 1 leopoldws && barrierc leopoldws) || (ip neigh | grep 192.168.10.1 | awk '{if($5 != "06:a1:51:a8:56:1d"){exit 1}}' || ivpn connect cz.wg.ivpn.net)
 
-exec syncthing
-exec mbsync
+exec --no-startup-id syncthing
+exec --no-startup-id mbsync
 
