@@ -2,6 +2,7 @@ case $1 in
 	bright|dark)
         xrdb $XDG_CONFIG_HOME/x11/xresources_$1
 	ln -fs $XDG_CONFIG_HOME/gtk-4.0/settings_$1 $XDG_CONFIG_HOME/gtk-4.0/settings.ini
+	ln -fs $XDG_CONFIG_HOME/gtk-4.0/gtk_$1.css $XDG_CONFIG_HOME/gtk-4.0/gtk.css
 	ln -fs $XDG_CONFIG_HOME/gtk-2.0/settings_$1 $GTK2_RC_FILES
 	ln -fs $XDG_CONFIG_HOME/qt6ct/settings_$1 $XDG_CONFIG_HOME/qt6ct/qt6ct.conf
 	ln -fs $XDG_CONFIG_HOME/qt5ct/settings_$1 $XDG_CONFIG_HOME/qt5ct/qt5ct.conf
