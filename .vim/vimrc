@@ -10,15 +10,18 @@ packadd minpac
 call minpac#init()
 
 call minpac#add('altercation/vim-colors-solarized')
-call minpac#add('chriskempson/base16-vim')
 call minpac#add('christoomey/vim-tmux-navigator')
+call minpac#add('ervandew/supertab')
 call minpac#add('k-takata/minpac', {'type':'opt'})
 call minpac#add('kana/vim-textobj-entire')
 call minpac#add('kana/vim-textobj-user')
+call minpac#add('lervag/vimtex')
 call minpac#add('machakann/vim-highlightedyank')
 call minpac#add('preservim/vimux')
+call minpac#add('sirver/ultisnips')
 call minpac#add('tmhedberg/SimpylFold')
 call minpac#add('tpope/vim-commentary')
+call minpac#add('tpope/vim-dispatch')
 call minpac#add('tpope/vim-fugitive')
 call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-surround')
@@ -188,6 +191,9 @@ if has("autocmd")
 
   " Additional comment strings for vim-commentary
   autocmd FileType tex setlocal commentstring=\%\ %s
+
+  " Perl Template Toolkit
+  autocmd BufNewFile,BufRead *.tt setf tt2
 endif
 
 " lilypond
@@ -195,3 +201,25 @@ filetype off
 set runtimepath+=/usr/local/share/lilypond/current/vim/
 filetype on
 syntax on
+
+" vimtex
+filetype plugin indent on
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+
+" correct spelling mistakes
+set spell spelllang=de,en_us
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
