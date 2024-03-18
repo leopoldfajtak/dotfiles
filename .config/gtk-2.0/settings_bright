@@ -1,11 +1,7 @@
-# DO NOT EDIT! This file will be overwritten by LXAppearance.
-# Any customization should be done in ~/.gtkrc-2.0.mine instead.
-
-include "/home/leopoldfajtak/.gtkrc-2.0.mine"
-gtk-theme-name="NumixSolarizedLightCyan"
-gtk-icon-theme-name="Solarized-Deluxe-Iconpack"
+gtk-theme-name="adw-gtk3"
+gtk-icon-theme-name="Solarized-Dark-Cyan-Numix"
 gtk-font-name="Overpass Light 9"
-gtk-cursor-theme-name="Cyan-Cursor"
+gtk-cursor-theme-name="Simp1e-Solarized-Light"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
