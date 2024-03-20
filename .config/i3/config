@@ -13,7 +13,7 @@ set $mod Mod4
 #
 # Load xresources configuration and start theming job for color change
 exec_always --no-startup-id xrdb ~/.Xresources
-exec_always feh --bg-max ~/wallpapers/bg.jpg
+exec_always feh --bg-scale ~/wallpapers/bg.jpg
 
 # Color definitions from .Xresources (dark/light is changed there). Fallbacks according to Solarized-dark
 
@@ -184,10 +184,9 @@ bindsym $mod+minus scratchpad show
 
 bindsym $mod+u exec dmenuunicode
 
-# remap keys (this is also in xprofile, but somehow xmodmap does not work at that point
+assign [class="iceweasel|Tor Browser|firefox|Brave-browser|torbrowser-launcher"] $ws2
 exec --no-startup-id remaps
 
-assign [class="iceweasel|Tor Browser|firefox|Brave-browser|torbrowser-launcher|Pale moon"] $ws2
 assign [class="zoom"] $ws4
 
 # reload the configuration file
@@ -225,7 +224,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 set $Locker betterlockscreen -l dim
-set $Loginctl systemctl
+set $Loginctl loginctl
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hybernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
@@ -276,8 +275,15 @@ default_border normal 1
 default_floating_border normal 1
 for_window [class="iceweasel|Tor Browser|firefox|Thunar|Brave-browser|zoom|Zathura|st|VSCodium|Signal|Anki|Pale moon"] border pixel 2
 
+# Hide cursor when not needed
+exec unclutter --fork --timeout 3
+
 # work against screen tearing
 exec --no-startup-id picom -b
+# inupt method
+exec_always ibus-daemon --xim -d -r
+
+exec export GLFW_IM_MODULE=ibus
 
 # Start other applications
 exec keepassxc ~/LocalSecrets.kdbx

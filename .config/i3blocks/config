@@ -81,12 +81,11 @@ min_width=100.00%
 # Battery indicator
 #
 # The battery instance defaults to 0.
-[battery]
-command=battery
-label=BAT
-label=⚡
-instance=1
-interval=30
+# [battery]
+# label=BAT
+# label=⚡
+#instance=1
+# interval=30
 
 [timer_and_stopwatch]
 # the DEFAULT_MODE variable must be either timer or stopwatch
